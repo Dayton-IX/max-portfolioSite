@@ -78,7 +78,7 @@
     transition: all .5s;
 }
 
-.Titlecard img {
+.DesktopFace {
     width: 587px;
     height: 530px;
     border-radius: 20px;
@@ -89,5 +89,20 @@
 @media screen and (max-width: 1000px) {
     .Titlecard {
         display: block;
+    }
+
+    .DesktopFace {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Titlecard h1 {
+        font-size: 64px;
+    }
+
+    .DescriptionBlock {
+        width: 90%;
+        margin-left: 0;
     }
 }

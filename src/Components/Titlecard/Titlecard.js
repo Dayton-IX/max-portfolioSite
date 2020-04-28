@@ -7,6 +7,7 @@ const Titlecard = (props) => (
     <div className={classes.Titlecard}>
         <div className={classes.Titlecardtext} >
             <h1>Hi, <br /> I'm Max Dayton.</h1>
+            {/* <img className={classes.MobileFace} src={face} alt="face" /> */}
             <div className={classes.DescriptionBlock}>
                 <p>i_am_a: <span className={classes.Bracket}>[</span></p>
                 <ul>
@@ -32,7 +33,7 @@ const Titlecard = (props) => (
                 See My Work
             </a>
         </div>
-        <img src={face} alt="face" />
+        <img className={classes.DesktopFace} src={face} alt="face" />
     </div>
 );
 
