@@ -20,7 +20,6 @@ body {
 main {
   font-family: 'Open Sans';
   margin-left: 5rem;
-  padding: 1rem;
 }
 
 .navbar {
@@ -28,6 +27,7 @@ main {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
+  z-index: 1000000000000;
 }
 
 .navbar-nav {
@@ -73,6 +73,7 @@ main {
   font-family: 'Open Sans';
   display: none;
   margin-left: 1rem;
+  transition: all var(--transition-speed);
 }
 
 .nav-link svg {
