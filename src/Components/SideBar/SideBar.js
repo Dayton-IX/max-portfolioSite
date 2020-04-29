@@ -6,14 +6,14 @@ const SideBar = (props) => (
     <nav class="navbar">
       <ul class="navbar-nav">
         <li class="logo">
-          <a href="/" class="nav-link">
+          <a href="#home" class="nav-link">
             <span class="link-text logo-text"></span>
             <img src={logo} alt="Logo" />
           </a>
         </li>
   
         <li class="nav-item">
-          <a href="/" class="nav-link">
+          <a href="#home" class="nav-link">
           <svg
             aria-hidden="true"
             focusable="false"

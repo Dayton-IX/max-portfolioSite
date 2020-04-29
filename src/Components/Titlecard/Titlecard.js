@@ -4,7 +4,7 @@ import classes from './Titlecard.module.css';
 import face from '../../assets/face.jpg'
 
 const Titlecard = (props) => (
-    <div className={classes.Titlecard}>
+    <div id="home" className={classes.Titlecard}>
         <div className={classes.Titlecardtext} >
             <h1>Hi, <br /> I'm Max Dayton.</h1>
             {/* <img className={classes.MobileFace} src={face} alt="face" /> */}

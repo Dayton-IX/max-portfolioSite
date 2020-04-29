@@ -1,8 +1,9 @@
 import React from 'react';
 import classes from './About.module.css';
+import face from '../../assets/face2.jpg';
 
 const About = (props) => (
-    <div className={classes.About} >
+    <div id="about" className={classes.About} >
         <h1>About.</h1>
         <div className={classes.AboutBlocks}>
             <div className={classes.AboutBlock}>
@@ -28,6 +29,16 @@ const About = (props) => (
                 <h3 className={classes.AboutBlockHeader}>Unique</h3>
                 <hr className={classes.AboutBlockHr} />
                 <p className={classes.AboutBlockText} >Stand out from the crowd, my sites are built to be one-of-a-kind, just like you and your business</p>
+            </div>
+        </div>
+        <div className={classes.AboutMeSection}>
+            <div className={classes.BackgroundBlock} ></div>
+            <div className={classes.WhoAmIBlock}>
+                <img className={classes.WhoAmIImg} src={face} alt="face" />
+                <h3 className={classes.WhoAmIHeader}>Who am I?</h3>
+                <hr className={classes.WhoAmIHr} />
+                <p className={classes.WhoAmIText}>I’m Maximus Dayton, Max for short. I’m a passionate full stack developer who specializes in building modern, well designed React apps.</p>
+                <a href="/bio" className={classes.WhoAmILink}>Read My Bio</a>
             </div>
         </div>
     </div>
