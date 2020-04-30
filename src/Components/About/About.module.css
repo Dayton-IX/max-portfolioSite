@@ -27,7 +27,7 @@
     border-radius: 20px;
     background-color: #34495E;
     text-align: center;
-    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
     margin: 0px 15px;
 }
 
@@ -83,11 +83,11 @@
 .BackgroundBlock {
     position: absolute;
     width: 1021px;
-    height: 427px;
+    height: 380px;
     left: 17%;
     top: 1126px;
     background: #34495E;
-    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     z-index: 1;
 }
@@ -100,7 +100,7 @@
     color: #EAF2F8;
     border-radius: 20px;
     margin-top: 25px;
-    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
 
@@ -142,4 +142,101 @@
 .WhoAmILink:hover {
     background-color: rgb(0, 132, 219);
     transition: all .5s;
+}
+
+.SkillsBlock {
+    width: 612px;
+    height: 364px;
+    border-radius: 20px;
+    background-color: #17202A;
+    font-family: Consolas;
+    z-index: 200;
+    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.SkillsBlockHeader {
+    font-size: 28px;
+    color: #EAF2F8;
+    margin: 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.SkillsBlockHr {
+    color: #EAF2F8;
+    width: 594px;
+}
+
+.SkillsList {
+    color: #F0B27A;
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+.SkillsList svg, .SkillsList img {
+    margin-bottom: -10px;
+    height: 33.33px;
+}
+
+.WhiteBar {
+    background-color: #EAF2F8;
+    width: 373px;
+    height: 21px;
+    border-radius: 3px;
+    float: right;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.HTMLBar {
+    background-color: #E44D26;
+    width: 90%;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.CSSBar {
+    background-color: #3C99DC;
+    width: 90%;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.JSBar {
+    background-color: #F0DB4F;
+    width: 85%;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.NodeBar {
+    background-color: #68A063;
+    width: 70%;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.ReactBar {
+    background-color: #61DBFB;
+    width: 85%;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.ReduxBar {
+    background-color: #764ABC;
+    width: 70%;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.WebDesignBar {
+    background-color: #F1948A;
+    width: 80%;
+    height: 21px;
+    border-radius: 3px;
 }
