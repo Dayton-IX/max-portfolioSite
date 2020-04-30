@@ -104,6 +104,8 @@
 
     .DescriptionBlock {
         width: 90%;
-        margin-left: 0;
+        margin-left: -10px;
+        font-size: 18px;
+        height: 200px;
     }
 }

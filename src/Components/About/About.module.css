@@ -240,3 +240,63 @@
     height: 21px;
     border-radius: 3px;
 }
+
+@media screen and (max-width: 1000px) {
+    .AboutBlocks {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-self: center;
+    }
+    
+    .AboutBlock {
+        margin: 0;
+        margin-bottom: 15px;
+        align-self: center;
+    }
+
+    .BackgroundBlock {
+        display: none;
+    }
+
+    .AboutMeSection {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .WhoAmIBlock {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .SkillsBlock {
+        margin: auto;
+        margin-top: 15px;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .AboutBlocks {
+        display: block;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        margin-left: 15%;
+    }
+
+    .WhoAmIBlock {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .SkillsBlock {
+        width: 100%;
+        margin-top: -16px;
+        border-radius: 0;
+    }
+
+    .WhiteBar {
+        width: 40%;
+    }
+}
