@@ -4,6 +4,7 @@ import { Component } from 'react';
 import SideBar from './Components/SideBar/SideBar';
 import Titlecard from  './Components/Titlecard/Titlecard';
 import About from './Components/About/About';
+import Work from './Components/Work/Work';
 
 class App extends Component {
 	render() {
@@ -13,6 +14,7 @@ class App extends Component {
 				<main>
 					<Titlecard />
 					<About />
+					<Work />
 				</main>
 			</div>
 		)

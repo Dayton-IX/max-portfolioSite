@@ -1,0 +1,16 @@
+.Work {
+    background-color: #34495E;
+    width: 100%;
+    left: 0;
+    top: 0;
+    /* padding-left: 1rem; */
+    padding-bottom: 30px;
+}
+
+.WorkHeader {
+    font-weight: lighter;
+    font-size: 72px;
+    margin: 1rem;
+    margin-bottom: 30px;
+    color: #EAF2F8;
+}

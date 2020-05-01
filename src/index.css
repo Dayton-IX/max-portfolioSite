@@ -7,6 +7,7 @@
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   scrollbar-width: thin;
+  scrollbar-color: #1C2833 #34495E;
 }
 
 body {
