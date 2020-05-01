@@ -1,0 +1,35 @@
+.WorkItem {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.WorkItemBackground {
+    background-color: rgba(23, 32, 42, 0.83);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.WorkItemHeader {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.WorkItemText {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.WorkItemTech {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-left: 15px;
+}
