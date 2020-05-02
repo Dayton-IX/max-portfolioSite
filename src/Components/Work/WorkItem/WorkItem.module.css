@@ -4,13 +4,21 @@
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 20px;
 }
 
 .WorkItemBackground {
-    background-color: rgba(23, 32, 42, 0.83);
+    background-color: rgba(23, 32, 42, 0.93);
     width: 400px;
     height: 250px;
     border-radius: 10px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.WorkItemBackground:hover {
+    opacity: 10;
+    transition: all .5s;
 }
 
 .WorkItemHeader {
@@ -32,4 +40,29 @@
     color: #FFFFFF;
     font-size: 24px;
     margin-left: 15px;
+}
+
+.WorkItemTech svg, .WorkItemTech img {
+    height: 33.33px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.WorkItemLink {
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.WorkItemLink a {
+    text-decoration: none;
+    color: #5dade2;
+    transition: all .5s;
+}
+
+.WorkItemLink a:hover {
+    color: aqua;
+    transition: all .5s;
 }

@@ -14,3 +14,10 @@
     margin-bottom: 30px;
     color: #EAF2F8;
 }
+
+.WorkItems {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
