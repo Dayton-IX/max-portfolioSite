@@ -18,9 +18,16 @@ const Work = (props) => {
         CentralValleyFoods: {
             title: 'Central Valley Foods',
             text: 'An ecommerce site for farm products, utilizing online shopping features like a cart, order form, and credit card checkout.',
-            tech: [icons.react, icons.redux, icons.js, icons.node],
+            tech: [icons.react, icons.redux, icons.js, icons.node, icons.css],
             link: 'centralvalleyfoods.net',
             id: 'CentralValleyFoods'
+        },
+        SchwabBakery: {
+            title: 'The Schwab Bakery',
+            text: 'A stylish site for The Schwab Bakery, a small bakery in Smithfield Utah',
+            tech: [icons.react, icons.js, icons.node, icons.css],
+            link: 'schwabbakery.com',
+            id: 'SchwabBakery'
         }
     }
 
@@ -29,6 +36,7 @@ const Work = (props) => {
             <h1 className={classes.WorkHeader}>My Work.</h1>
             <div className={classes.WorkItems}>
                 <WorkItem project={workItems.CentralValleyFoods} />
+                <WorkItem project={workItems.SchwabBakery} />
             </div>
         </div>
     )
