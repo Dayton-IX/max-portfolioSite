@@ -24,10 +24,17 @@ const Work = (props) => {
         },
         SchwabBakery: {
             title: 'The Schwab Bakery',
-            text: 'A stylish site for The Schwab Bakery, a small bakery in Smithfield Utah',
+            text: 'A stylish site for The Schwab Bakery, a small bakery in Smithfield Utah.',
             tech: [icons.react, icons.js, icons.node, icons.css],
             link: 'schwabbakery.com',
             id: 'SchwabBakery'
+        },
+        WiserStorage : {
+            title: 'Wiser Storage',
+            text: 'A small teaser site with a contact form for a storage company coming to Richmond Utah.',
+            tech: [icons.html, icons.css, icons.js, icons.node],
+            link: 'wiserstorage.net',
+            id: 'WiserStorage'
         }
     }
 
@@ -37,6 +44,7 @@ const Work = (props) => {
             <div className={classes.WorkItems}>
                 <WorkItem project={workItems.CentralValleyFoods} />
                 <WorkItem project={workItems.SchwabBakery} />
+                <WorkItem project={workItems.WiserStorage} />
             </div>
         </div>
     )
