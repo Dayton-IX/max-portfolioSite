@@ -29,10 +29,6 @@ const Work = (props) => {
             <h1 className={classes.WorkHeader}>My Work.</h1>
             <div className={classes.WorkItems}>
                 <WorkItem project={workItems.CentralValleyFoods} />
-                <WorkItem project={workItems.CentralValleyFoods} />
-                <WorkItem project={workItems.CentralValleyFoods} />
-                <WorkItem project={workItems.CentralValleyFoods} />
-                <WorkItem project={workItems.CentralValleyFoods} />
             </div>
         </div>
     )
