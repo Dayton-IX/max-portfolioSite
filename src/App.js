@@ -5,6 +5,7 @@ import SideBar from './Components/SideBar/SideBar';
 import Titlecard from  './Components/Titlecard/Titlecard';
 import About from './Components/About/About';
 import Work from './Components/Work/Work';
+import Contact from './Components/Contact/Contact';
 
 class App extends Component {
 	render() {
@@ -15,6 +16,7 @@ class App extends Component {
 					<Titlecard />
 					<About />
 					<Work />
+					<Contact />
 				</main>
 			</div>
 		)

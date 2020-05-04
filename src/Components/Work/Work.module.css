@@ -21,3 +21,11 @@
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+@media screen and (max-width: 1100px){
+    .WorkItems {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+}
