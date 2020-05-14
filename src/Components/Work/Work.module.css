@@ -24,8 +24,12 @@
 
 @media screen and (max-width: 1100px){
     .WorkItems {
-        display: block;
-        width: 90%;
-        margin: auto;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .WorkItems {
+        grid-template-columns: auto;
     }
 }
