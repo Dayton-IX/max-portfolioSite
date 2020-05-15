@@ -82,7 +82,7 @@
 .BackgroundBlock {
     position: absolute;
     width: 1021px;
-    height: 380px;
+    height: 400px;
     left: 17%;
     top: 1126px;
     background: #34495E;
@@ -98,7 +98,7 @@
     background-color: #5D6D7E;
     color: #EAF2F8;
     border-radius: 20px;
-    margin-top: 25px;
+    margin-top: -15px;
     box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
@@ -151,7 +151,7 @@
     font-family: Consolas;
     z-index: 200;
     box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
-    margin-top: -15px;
+    margin-top: -10px;
     margin-left: -15px;
 }
 

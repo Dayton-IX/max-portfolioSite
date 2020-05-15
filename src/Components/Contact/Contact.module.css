@@ -24,3 +24,52 @@
     background-color: #34495E;
     border-radius: 0 5px 0 0;
 }
+
+.ContactForm {
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.FormInput {
+    height: 28px;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    padding-left: 5px;
+}
+
+.FormMessage {
+    width: 100%;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 100px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Open Sans';
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.FormButton {
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    color: #85C1E9;
+    border: 1px solid #85C1E9;
+    background-color: transparent;
+    border-radius: 3px;
+    transition: all .3s;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+.FormButton:hover, .FormButton:focus {
+    background-color: #85C1E9;
+    color: #ffffff;
+    transition: all .3s;
+}
