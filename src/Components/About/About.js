@@ -37,7 +37,7 @@ const About = (props) => (
                 <img className={classes.WhoAmIImg} src={face} alt="face" />
                 <h3 className={classes.WhoAmIHeader}>Who am I?</h3>
                 <hr className={classes.WhoAmIHr} />
-                <p className={classes.WhoAmIText}>I’m Maximus Dayton, Max for short. I’m a passionate full stack developer who specializes in building modern, well designed React apps.</p>
+                <p className={classes.WhoAmIText}>I’m Maximus Dayton, Max for short. I’m a passionate full stack developer from Utah who specializes in building modern, well designed React apps.</p>
                 <a href="/bio" className={classes.WhoAmILink}>Read My Bio</a>
             </div>
             <div className={classes.SkillsBlock}>

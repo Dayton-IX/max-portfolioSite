@@ -74,11 +74,11 @@
 .AboutMeSection {
     display: grid;
     grid-template-columns: 40% 60%;
-    width: 80%;
+    width: 70%;
     margin: auto;
     align-self: center;
-    margin-top: 130px;
-    background-color: #34495E;
+    margin-top: 40px;
+    /* background-color: #34495E; */
     border-radius: 20px;
     padding: 10px;
 }
@@ -98,7 +98,7 @@
 .WhoAmIBlock {
     z-index: 100;
     width: 403px;
-    height: 373px;
+    height: 393px;
     background-color: #5D6D7E;
     color: #EAF2F8;
     border-radius: 20px;
@@ -116,6 +116,7 @@
 .WhoAmIHeader {
     font-size: 36px;
     margin: 0;
+    font-weight: lighter;
 }
 
 .WhoAmIHr {
@@ -149,10 +150,11 @@
 .SkillsBlock {
     width: 612px;
     height: 364px;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
     background-color: #17202A;
     font-family: Consolas;
-    z-index: 200;
+    z-index: 50;
+    margin-top: 15px;
     box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
     margin-left: -15px;
 }
@@ -163,13 +165,16 @@
     font-weight: lighter;
     color: #EAF2F8;
     margin: 0;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     margin-top: 1rem;
+    text-align: left;
 }
 
 .SkillsBlockHr {
     color: #EAF2F8;
-    width: 594px;
+    width: 90%;
+    text-align: left;
+    margin-left: 25px;
 }
 
 .SkillsList {
