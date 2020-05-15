@@ -4,7 +4,6 @@
     left: 0;
     top: 0;
     /* padding-left: 1rem; */
-    padding-bottom: 30px;
 }
 
 .ContactHeader {
@@ -14,4 +13,14 @@
     margin-left: 1rem;
     margin-bottom: 30px;
     color: #EAF2F8;
+}
+
+.ContactMain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ContactFormContainer {
+    background-color: #34495E;
+    border-radius: 0 5px 0 0;
 }
