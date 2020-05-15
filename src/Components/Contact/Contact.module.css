@@ -73,3 +73,24 @@
     color: #ffffff;
     transition: all .3s;
 }
+
+.FollowMe {
+    background-color: #DDF0FF;
+    border-radius: 0 5px 0 0;
+    width: 90%;
+}
+
+.FollowMeList {
+    list-style: none;
+}
+
+.FollowMeSvg {
+    height: 30px;
+}
+
+.FollowMeLink {
+    color: #3C99DC;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+}

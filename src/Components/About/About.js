@@ -33,7 +33,6 @@ const About = (props) => (
             </div>
         </div>
         <div className={classes.AboutMeSection}>
-            <div className={classes.BackgroundBlock} ></div>
             <div className={classes.WhoAmIBlock}>
                 <img className={classes.WhoAmIImg} src={face} alt="face" />
                 <h3 className={classes.WhoAmIHeader}>Who am I?</h3>
