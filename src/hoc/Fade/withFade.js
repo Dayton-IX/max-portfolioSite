@@ -12,6 +12,7 @@ function FadeInSection(props) {
             });
         });
         observer.observe(domRef.current);
+        // eslint-disable-next-line
         return () => observer.unobserve(domRef.current);
     }, []);
     return (
