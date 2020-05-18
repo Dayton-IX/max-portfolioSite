@@ -17,6 +17,7 @@
 }
 
 .ContactMain {
+    max-width: 1450px;
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 0;
@@ -113,4 +114,21 @@
 .FollowMeLink:hover, .FollowMeLink:focus {
     color: rgb(106, 192, 250);
     transition: all .2s;
+}
+
+.ContactRight {
+    width: 95%;
+    margin-left: 20px;
+    background-color: #17202A;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    height: min-content;
+}
+
+.ContactImg {
+    width: 97%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
 }

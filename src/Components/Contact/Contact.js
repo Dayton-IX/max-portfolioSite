@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Contact.module.css';
+import contactImg from '../../assets/laptopBack.jpg';
 
 class Contact extends Component {
     render() {
@@ -42,7 +43,7 @@ class Contact extends Component {
                         </div>
                     </div>
                     <div className={classes.ContactRight}>
-                        
+                        <img className={classes.ContactImg} src={contactImg} alt="Laptop Stickers" />
                     </div>
                 </div>
             </div>
