@@ -9,7 +9,7 @@ const Titlecard = (props) => (
             <h1>Hi, <br /> I'm Max Dayton.</h1>
             {/* <img className={classes.MobileFace} src={face} alt="face" /> */}
             <div className={classes.DescriptionBlock}>
-                <p>i_am_a: <span className={classes.Bracket}>[</span></p>
+                <p>i_am_a<span className={classes.Equal}> = </span><span className={classes.Bracket}>[</span></p>
                 <ul>
                     <li>'full stack web developer'<span className={classes.Comma}>,</span></li>
                     <li>'web designer'<span className={classes.Comma}>,</span></li>
