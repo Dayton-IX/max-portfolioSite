@@ -15,9 +15,23 @@ function FadeInSection(props) {
         // eslint-disable-next-line
         return () => observer.unobserve(domRef.current);
     }, []);
+
+    let fadeClass = 'fade-in-section'
+
+    switch(props.type) {
+        case 'right':
+            fadeClass = 'fade-in-right';
+            break;
+        case 'left':
+            fadeClass = 'fade-in-left';
+            break;
+        default:
+            fadeClass = 'fade-in-section';
+    }
+    
     return (
         <div
-            className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+            className={`${fadeClass} ${isVisible ? 'is-visible' : ''}`}
             ref={domRef}
         >
             {props.children}
