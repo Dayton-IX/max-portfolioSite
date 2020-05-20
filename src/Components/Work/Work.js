@@ -30,12 +30,19 @@ const Work = (props) => {
             link: 'schwabbakery.com',
             id: 'SchwabBakery'
         },
-        WiserStorage : {
+        WiserStorage: {
             title: 'Wiser Storage',
             text: 'A small teaser site with a contact form for a storage company coming to Richmond Utah.',
             tech: [icons.html, icons.css, icons.js, icons.node],
             link: 'wiserstorage.net',
             id: 'WiserStorage'
+        },
+        VeteranLawncare: {
+            title: 'Veteran Lawncare',
+            text: 'I helped with the some of the design, and implemented some payment features into this Squarespace site.',
+            tech: [icons.html, icons.css, icons.js, icons.node],
+            link: 'veteranlawncareandsprinklers.com',
+            id: 'VeteranLawncare'
         }
     }
 
@@ -47,6 +54,7 @@ const Work = (props) => {
                     <WorkItem project={workItems.CentralValleyFoods} />
                     <WorkItem project={workItems.SchwabBakery} />
                     <WorkItem project={workItems.WiserStorage} />
+                    <WorkItem project={workItems.VeteranLawncare} />
                 </div>
             </WithFade>
         </div>

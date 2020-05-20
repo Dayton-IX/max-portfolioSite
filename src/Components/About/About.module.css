@@ -207,49 +207,49 @@
     background-color: #E44D26;
     width: 90%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .CSSBar {
     background-color: #3C99DC;
     width: 90%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .JSBar {
     background-color: #F0DB4F;
     width: 85%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .NodeBar {
     background-color: #68A063;
     width: 70%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .ReactBar {
     background-color: #61DBFB;
     width: 85%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .ReduxBar {
     background-color: #764ABC;
     width: 70%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .WebDesignBar {
     background-color: #F1948A;
     width: 80%;
     height: 21px;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 @media screen and (max-width: 1100px) {

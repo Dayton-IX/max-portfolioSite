@@ -8,6 +8,7 @@
   --transition-speed: 600ms;
   scrollbar-width: thin;
   scrollbar-color: #1C2833 #34495E;
+  overflow-x: hidden;
 }
 
 html {
@@ -228,4 +229,8 @@ main {
 
 #WiserStorage {
   background-image: url('./assets/WiserStorage.png');
+}
+
+#VeteranLawncare {
+  background-image: url('./assets/VeteranLawncare.png');
 }

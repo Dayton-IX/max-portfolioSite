@@ -16,10 +16,10 @@
 }
 
 .WorkItems {
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     max-width: 1450px;
 }
 

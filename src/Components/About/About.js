@@ -41,7 +41,7 @@ const About = (props) => (
                     <img className={classes.WhoAmIImg} src={face} alt="face" />
                     <h3 className={classes.WhoAmIHeader}>Who am I?</h3>
                     <hr className={classes.WhoAmIHr} />
-                    <p className={classes.WhoAmIText}>I’m Maximus Dayton, Max for short. I’m a passionate full stack developer based in Logan Utah who specializes in building modern, well designed React apps. My mission is to help you bring out the best of your business , increase your visiblility and use code to make your job a little easier. </p>
+                    <p className={classes.WhoAmIText}>I’m Maximus Dayton, Max for short. I’m a passionate full stack developer based in Logan Utah who specializes in building modern, well designed React apps. My mission is to help you bring out the best of your business , increase your visiblility, and use code to make your job a little easier. </p>
                     <a href="#contact" className={classes.WhoAmILink}>Let's Get In Touch</a>
                 </div>
                 <div className={classes.SkillsBlock}>
