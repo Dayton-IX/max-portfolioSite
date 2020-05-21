@@ -23,13 +23,13 @@
     max-width: 1450px;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1364px){
     .WorkItems {
-        grid-template-columns: auto;
+        grid-template-columns: 50% 50%;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1116px){
     .WorkItems {
         grid-template-columns: auto;
     }

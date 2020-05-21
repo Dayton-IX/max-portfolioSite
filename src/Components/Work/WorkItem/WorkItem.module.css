@@ -69,3 +69,15 @@
 }
 
 /*? Image backgrounds found in index.css */
+
+@media screen and (max-width: 1116px) {
+    .WorkItem {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .WorkItemBackground {
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+}

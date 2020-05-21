@@ -1,9 +1,10 @@
 import React from 'react';
 import './SideBar.css';
-import logo from '../../assets/MDLogo.png'
+import logo from '../../assets/MDLogo.png';
+import WithFade from '../../hoc/Fade/withFade';
 
 const SideBar = (props) => (
-    <nav className="navbar">
+  <nav className="navbar">
       <ul className="navbar-nav">
         <li className="logo">
           <a href="#home" className="nav-link">
@@ -91,9 +92,8 @@ const SideBar = (props) => (
             <span className="link-text">/uses</span>
           </a>
         </li>
-        
       </ul>
-    </nav>
+  </nav>
 );
 
 export default SideBar;
