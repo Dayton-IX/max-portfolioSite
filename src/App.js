@@ -6,19 +6,26 @@ import Titlecard from  './Components/Titlecard/Titlecard';
 import About from './Components/About/About';
 import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Uses from './USES/Uses';
 
 class App extends Component {
 	render() {
 		return (
-			<div>
+			<BrowserRouter>
 				<SideBar />
 				<main>
-					<Titlecard />
-					<About />
-					<Work />
-					<Contact />
+				<Route path='/' exact render={() => (
+					<div>
+						<Titlecard />
+						<About />
+						<Work />
+						<Contact />
+					</div>
+				)}/>
+				<Route path='/uses' render={() => <Uses />} />
 				</main>
-			</div>
+			</BrowserRouter>
 		)
 	}
 }

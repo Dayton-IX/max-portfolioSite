@@ -7,14 +7,14 @@ const SideBar = (props) => (
   <nav className="navbar">
       <ul className="navbar-nav">
         <li className="logo">
-          <a href="#home" className="nav-link">
+          <a href="/#home" className="nav-link">
             <span className="link-text logo-text"></span>
             <img src={logo} alt="Logo" />
           </a>
         </li>
   
         <li className="nav-item">
-          <a href="#home" className="nav-link">
+          <a href="/#home" className="nav-link">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -30,7 +30,7 @@ const SideBar = (props) => (
         </li>
   
         <li className="nav-item">
-          <a href="#about" className="nav-link">
+          <a href="/#about" className="nav-link">
           <svg 
             aria-hidden="true"
             focusable="false"
@@ -46,7 +46,7 @@ const SideBar = (props) => (
         </li>
   
         <li className="nav-item">
-          <a href="#work" className="nav-link">
+          <a href="/#work" className="nav-link">
           <svg 
             aria-hidden="true"
             focusable="false"
@@ -62,7 +62,7 @@ const SideBar = (props) => (
         </li>
   
         <li className="nav-item">
-          <a href="#contact" className="nav-link">
+          <a href="/#contact" className="nav-link">
           <svg 
             aria-hidden="true"
             focusable="false"
