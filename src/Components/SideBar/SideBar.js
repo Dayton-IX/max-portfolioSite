@@ -7,7 +7,7 @@ const SideBar = (props) => (
   <nav className="navbar">
       <ul className="navbar-nav">
         <li className="logo">
-          <a href="/#home" className="nav-link">
+          <a href="/" className="nav-link">
             <span className="link-text logo-text"></span>
             <img src={logo} alt="Logo" />
           </a>
