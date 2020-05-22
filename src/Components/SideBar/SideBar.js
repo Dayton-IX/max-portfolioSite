@@ -1,5 +1,4 @@
 import React from 'react';
-import './SideBar.css';
 import logo from '../../assets/MDLogo.png';
 import { NavLink } from 'react-router-dom';
 // import WithFade from '../../hoc/Fade/withFade';
