@@ -25,6 +25,9 @@ function FadeInSection(props) {
         case 'left':
             fadeClass = 'fade-in-left';
             break;
+        case 'top':
+            fadeClass = 'fade-in-top';
+            break;
         default:
             fadeClass = 'fade-in-section';
     }

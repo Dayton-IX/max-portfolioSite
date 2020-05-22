@@ -210,7 +210,15 @@ main {
   will-change: opacity, visibility;
 }
 
-.fade-in-section.is-visible, .fade-in-left.is-visible, .fade-in-right.is-visible {
+.fade-in-top {
+  opacity: 0;
+  transform: translateY(-10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform .9s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible, .fade-in-left.is-visible, .fade-in-right.is-visible, .fade-in-top.is-visible {
   opacity: 1;
   transform: none;
   visibility: visible;

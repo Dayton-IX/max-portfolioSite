@@ -1,0 +1,60 @@
+.underConstruction {
+    background-color: #34495E;
+    height: 100vh;
+    color: #EAF2F8;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.ConstructionContainer {
+    width: 70%;
+    margin: auto;
+    border: 3px solid #EAF2F8;
+    border-top: none;
+    padding-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+    background-color: #283747;
+}
+
+.ConstructionHeader {
+    font-weight: lighter;
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ConstructionText {
+    font-size: 24px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.ConstructionLink {
+    text-decoration: none;
+    color: #85c1e9;
+    font-size: 36px;
+    border: 1px solid #85c1e9;
+    width: 323px;
+    height: 52px;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 1rem;
+    transition: all .2s;
+    font-weight: lighter;
+}
+
+.ConstructionLink:hover {
+    background-color: #85c1e9;
+    color: #EAF2F8;
+    transition: all .2s;
+}
+
+@media screen and (max-width: 720px) {
+    .ConstructionContainer {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        height: 100vh;
+        padding: 0;
+    }
+}
