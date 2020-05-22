@@ -2,8 +2,44 @@ import React, { Component } from 'react';
 import classes from './Contact.module.css';
 import contactImg from '../../assets/laptopBack.jpg';
 import WithFade from '../../hoc/Fade/withFade';
+import axios from '../../secret/axios-mail';
 
 class Contact extends Component {
+    state = {
+        name: '',
+        email: '',
+        message: '',
+        formValid: false,
+        sendRequest: false
+    }
+
+    handleEmailChange = function(e) {
+        this.setState({email: e.target.value})
+    }
+    handleNameChange = function(e) {
+        this.setState({name: e.target.value})
+    }
+    handleMessageChange = function(e) {
+        this.setState({message: e.target.value})
+    }
+
+    mailHandler = (event) => {
+        event.preventDefault();
+        this.setState({sendRequest: true})
+        if (this.state.name !== '' && this.state.email !== '' && this.state.message !== '') {
+            this.setState({formValid: true});
+            axios.post('/sendMail', {
+                name: this.state.name,
+                email: this.state.email,
+                message: this.state.message
+            }).then(response => {
+                console.log(response);
+            }).catch(error => {
+                console.log(error);
+            });
+        }
+    }
+
     render() {
         return (
             <div id="contact" className={classes.Contact}>
@@ -11,10 +47,10 @@ class Contact extends Component {
                 <div className={classes.ContactMain}>
                     <div className={classes.ContactLeft}>
                         <div className={classes.ContactFormContainer}>
-                            <form className={classes.ContactForm}>
-                                <input type="text" className={classes.FormInput} placeholder="Name" />
-                                <input type="email" className={classes.FormInput} placeholder="Email" />
-                                <textarea className={classes.FormMessage} placeholder="Message" />
+                            <form className={classes.ContactForm} onSubmit={(e) => this.mailHandler(e)}>
+                                <input type="text" className={classes.FormInput} placeholder="Name" value={this.state.name} onChange={(e) => this.handleNameChange(e)} />
+                                <input type="email" className={classes.FormInput} placeholder="Email" value={this.state.email} onChange={(e) => this.handleEmailChange(e)} />
+                                <textarea className={classes.FormMessage} placeholder="Message" value={this.state.message} onChange={(e) => this.handleMessageChange(e)} />
                                 <input type="submit" className={classes.FormButton} value="Send Me An Email!" />
                             </form>
                             <div className={classes.FollowMe}>
