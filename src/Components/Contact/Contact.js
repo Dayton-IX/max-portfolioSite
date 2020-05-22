@@ -51,7 +51,7 @@ class Contact extends Component {
                                 <input type="text" className={classes.FormInput} placeholder="Name" value={this.state.name} onChange={(e) => this.handleNameChange(e)} />
                                 <input type="email" className={classes.FormInput} placeholder="Email" value={this.state.email} onChange={(e) => this.handleEmailChange(e)} />
                                 <textarea className={classes.FormMessage} placeholder="Message" value={this.state.message} onChange={(e) => this.handleMessageChange(e)} />
-                                <input type="submit" className={classes.FormButton} value="Send Me An Email!" />
+                                <input type="submit" className={classes.FormButton} value="Send Me An Email!" /> {this.state.sendRequest ? <div className={this.state.formValid ? classes.Success : classes.Error}>{this.state.formValid ? "Email Sent!" : "Please Fill In All Fields."}</div> : null }
                             </form>
                             <div className={classes.FollowMe}>
                                 <ul className={classes.FollowMeList}>
