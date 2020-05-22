@@ -3,7 +3,7 @@ import classes from './Work.module.css';
 
 import WorkItem from './WorkItem/WorkItem';
 import reduxLogo from '../../assets/reduxLogo.png';
-import WithFade from '../../hoc/Fade/withFade';
+// import WithFade from '../../hoc/Fade/withFade';
 
 const Work = (props) => {
     const icons = {
@@ -49,14 +49,12 @@ const Work = (props) => {
     return (
         <div id="work" className={classes.Work}>
             <h1 className={classes.WorkHeader}>My Work.</h1>
-            <WithFade>
-                <div className={classes.WorkItems}>
-                    <WorkItem project={workItems.CentralValleyFoods} />
-                    <WorkItem project={workItems.SchwabBakery} />
-                    <WorkItem project={workItems.WiserStorage} />
-                    <WorkItem project={workItems.VeteranLawncare} />
-                </div>
-            </WithFade>
+            <div className={classes.WorkItems}>
+                <WorkItem project={workItems.CentralValleyFoods} />
+                <WorkItem project={workItems.SchwabBakery} />
+                <WorkItem project={workItems.WiserStorage} />
+                <WorkItem project={workItems.VeteranLawncare} />
+            </div>
         </div>
     )
 };

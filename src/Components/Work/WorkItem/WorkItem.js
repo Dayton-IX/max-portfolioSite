@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './WorkItem.module.css';
+import WithFade from '../../../hoc/Fade/withFade'
 
 import reduxLogo from '../../../assets/reduxLogo.png';
 
@@ -58,14 +59,16 @@ const WorkItem = (props) => {
 
 
     return (
-        <div id={props.project.id} className={classes.WorkItem} >
-            <div className={classes.WorkItemBackground}>
-                <h4 className={classes.WorkItemHeader}>{props.project.title}</h4>
-                <p className={classes.WorkItemText}>{props.project.text}</p>
-                <span className={classes.WorkItemTech}>Built Using: {techIcons}</span>
-                <h5 className={classes.WorkItemLink}>Link: <a target="blank" href={`https://www.${props.project.link}`}>{props.project.link}</a></h5>
+        <WithFade>
+            <div id={props.project.id} className={classes.WorkItem} >
+                <div className={classes.WorkItemBackground}>
+                    <h4 className={classes.WorkItemHeader}>{props.project.title}</h4>
+                    <p className={classes.WorkItemText}>{props.project.text}</p>
+                    <span className={classes.WorkItemTech}>Built Using: {techIcons}</span>
+                    <h5 className={classes.WorkItemLink}>Link: <a target="blank" href={`https://www.${props.project.link}`}>{props.project.link}</a></h5>
+                </div>
             </div>
-        </div>
+        </WithFade>
     )
 };
 
