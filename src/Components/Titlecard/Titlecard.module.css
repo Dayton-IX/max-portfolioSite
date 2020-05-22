@@ -6,7 +6,8 @@
     top: 0;
     /* padding-left: 1rem; */
     padding-bottom: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .Titlecardtext {
@@ -22,7 +23,7 @@
 
 .DescriptionBlock {
     font-family: Consolas;
-    width: 605px;
+    width: 90%;
     height: 246px;
     margin: 1rem;
     background-color: #17202A;
@@ -86,14 +87,14 @@
 }
 
 .DesktopFace {
-    width: 587px;
+    width: 90%;
     height: 530px;
     border-radius: 20px;
     object-fit: cover;
-    margin: 2rem;
+    margin: 20px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1146px) {
     .Titlecard {
         display: block;
     }
@@ -101,9 +102,13 @@
     .DesktopFace {
         display: none;
     }
+
+    .Titlecard a {
+        margin-left: 0;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
     .Titlecard h1 {
         font-size: 64px;
     }

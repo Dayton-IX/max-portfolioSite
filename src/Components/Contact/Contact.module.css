@@ -133,3 +133,25 @@
     border-radius: 5px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1000px){
+    .FollowMe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 908px){
+    .ContactRight {
+        display: none;
+    }
+
+    .ContactMain {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Contact {
+        padding-bottom: 80px;
+    }
+}
