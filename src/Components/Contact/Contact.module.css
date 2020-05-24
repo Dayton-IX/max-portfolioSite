@@ -51,13 +51,15 @@
     width: 100%;
     font-size: 18px;
     font-weight: lighter;
-    height: 100px;
+    height: 200px;
     border-radius: 3px;
     border: none;
     font-family: 'Open Sans';
     padding-left: 5px;
     margin-bottom: 10px;
     resize: none;
+    padding-top: 5px;
+    scrollbar-width: thin;
 }
 
 .FormButton {

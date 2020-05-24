@@ -15,7 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body::selection, body::-moz-selection {
+body::selection {
+  background: #df49a6;
+  color: #F7F9F9;
+}
+
+body::-moz-selection {
   background: #df49a6;
   color: #F7F9F9;
 }
