@@ -7,7 +7,7 @@
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   scrollbar-width: thin;
-  scrollbar-color: #1C2833 #34495E;
+  scrollbar-color: #85c1e9 #34495E;
   overflow-x: hidden;
 }
 
@@ -15,15 +15,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body::selection {
+/* body::selection {
   background: #df49a6;
   color: #F7F9F9;
 }
 
 body::-moz-selection {
   background: #df49a6;
-  color: #F7F9F9;
-}
+  color: #F7F9F9; */
+/* } */
 
 body {
   font-family: 'Open Sans';

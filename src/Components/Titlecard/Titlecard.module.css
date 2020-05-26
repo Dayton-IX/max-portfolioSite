@@ -80,7 +80,7 @@
     margin-bottom: -7px;
 }
 
-.Titlecard a:hover {
+.Titlecard a:hover, .Titlecard a:focus {
     background-color: #85c1e9;
     color: #EAF2F8;
     transition: all .2s;

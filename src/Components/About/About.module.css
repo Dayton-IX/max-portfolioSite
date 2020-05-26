@@ -144,7 +144,7 @@
     transition: all .2s;
 }
 
-.WhoAmILink:hover {
+.WhoAmILink:hover, .WhoAmILink:focus {
     background-color: #85c1e9;
     color: #EAF2F8;
     transition: all .2s;
