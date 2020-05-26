@@ -7,7 +7,7 @@
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   scrollbar-width: thin;
-  scrollbar-color: #85c1e9 #34495E;
+  scrollbar-color: #17202A #34495E;
   overflow-x: hidden;
 }
 
@@ -257,4 +257,8 @@ main {
 
 #VeteranLawncare {
   background-image: url('./assets/VeteranLawncare.png');
+}
+
+#GalaxyWatch {
+  background-image: url('./assets/watch.png');
 }

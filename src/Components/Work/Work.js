@@ -20,29 +20,41 @@ const Work = (props) => {
             title: 'Central Valley Foods',
             text: 'An ecommerce site for farm products, utilizing online shopping features like a cart, order form, and credit card checkout.',
             tech: [icons.react, icons.redux, icons.js, icons.node, icons.css],
-            link: 'centralvalleyfoods.net',
+            link: 'https://www.centralvalleyfoods.net',
+            linkName: 'centralvalleyfoods.net',
             id: 'CentralValleyFoods'
         },
         SchwabBakery: {
             title: 'The Schwab Bakery',
             text: 'A stylish site for The Schwab Bakery, a small bakery in Smithfield Utah.',
             tech: [icons.react, icons.js, icons.node, icons.css],
-            link: 'schwabbakery.com',
+            link: 'https://www.schwabbakery.com',
+            linkName: 'schwabbakery.com',
             id: 'SchwabBakery'
         },
         WiserStorage: {
             title: 'Wiser Storage',
             text: 'A small teaser site with a contact form for a storage company coming to Richmond Utah.',
             tech: [icons.html, icons.css, icons.js, icons.node],
-            link: 'wiserstorage.net',
+            link: 'https://www.wiserstorage.net',
+            linkName: 'wiserstorage.net',
             id: 'WiserStorage'
         },
         VeteranLawncare: {
             title: 'Veteran Lawncare',
             text: 'I helped with the some of the design, and implemented some payment features into this Squarespace site.',
             tech: [icons.html, icons.css, icons.js, icons.node],
-            link: 'veteranlawncareandsprinklers.com',
+            link: 'https://www.veteranlawncareandsprinklers.com',
+            linkName: 'veteranlawncareandsprinklers.com',
             id: 'VeteranLawncare'
+        },
+        GalaxyWatch: {
+            title: 'Neumorphic Watch Face',
+            text: 'I created and published a watch face for the Samsung Galaxy Watch using web technologies to prototype it.',
+            tech: [icons.html, icons.css, icons.js],
+            link: '/watchFace',
+            linkName: 'Web Version',
+            id: 'GalaxyWatch'
         }
     }
 
@@ -54,6 +66,7 @@ const Work = (props) => {
                 <WorkItem project={workItems.SchwabBakery} />
                 <WorkItem project={workItems.WiserStorage} />
                 <WorkItem project={workItems.VeteranLawncare} />
+                <WorkItem project={workItems.GalaxyWatch} />
             </div>
         </div>
     )

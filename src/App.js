@@ -15,15 +15,15 @@ class App extends Component {
 			<BrowserRouter>
 				<SideBar />
 				<main>
-				<Route path='/' exact render={() => (
-					<div>
-						<Titlecard />
-						<About />
-						<Work />
-						<Contact />
-					</div>
-				)}/>
-				<Route path='/uses' render={() => <Uses />} />
+					<Route path='/' exact render={() => (
+						<div>
+							<Titlecard />
+							<About />
+							<Work />
+							<Contact />
+						</div>
+					)}/>
+					<Route path='/uses' render={() => <Uses />} />
 				</main>
 			</BrowserRouter>
 		)
