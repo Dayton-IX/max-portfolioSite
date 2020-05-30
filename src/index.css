@@ -62,8 +62,14 @@ main {
   width: 100%;
 }
 
-.nav-item:last-child {
+.nav-item-noMobile {
+  font-family: 'Open Sans';
+  width: 100%;
+}
+
+.bottom-items {
   margin-top: auto;
+  width: 100%;
 }
 
 .nav-link {
@@ -167,7 +173,16 @@ main {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .bottom-items .nav-item {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 378px) {
+  .nav-item-noMobile {
+    display: none;
+  }
   .nav-item:last-child {
     display: none;
   }

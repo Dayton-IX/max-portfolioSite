@@ -84,7 +84,7 @@ const WorkItem = (props) => {
                     <h4 className={classes.WorkItemHeader}>{props.project.title}</h4>
                     <p className={classes.WorkItemText}>{props.project.text}</p>
                     <span className={classes.WorkItemTech}>Built Using: {techIcons}</span>
-                    <h5 className={classes.WorkItemLink}>Link: <a target="blank" href={props.project.link}>{props.project.linkName}</a></h5>
+                    { props.noLink ? null : <h5 className={classes.WorkItemLink}>Link: <a target="blank" href={props.project.link}>{props.project.linkName}</a></h5>}
                 </div>
             </div>
         </WithFade>

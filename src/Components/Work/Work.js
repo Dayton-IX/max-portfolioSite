@@ -74,7 +74,7 @@ const Work = (props) => {
                 <WorkItem project={workItems.SchwabBakery} />
                 <WorkItem project={workItems.WiserStorage} />
                 <WorkItem project={workItems.VeteranLawncare} />
-                <WorkItem project={workItems.GalaxyWatch} />
+                <WorkItem project={workItems.GalaxyWatch} noLink />
                 <WorkItem project={workItems.CovidTracker} />
             </div>
         </div>
