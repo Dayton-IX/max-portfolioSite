@@ -262,3 +262,7 @@ main {
 #GalaxyWatch {
   background-image: url('./assets/watch.png');
 }
+
+#CovidTracker {
+  background-image: url('./assets/COVIDTracker.png');
+}

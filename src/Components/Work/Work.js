@@ -55,6 +55,14 @@ const Work = (props) => {
             link: '/watchFace',
             linkName: 'Web Version',
             id: 'GalaxyWatch'
+        },
+        CovidTracker: {
+            title: 'COVID-19 Tracker',
+            text: 'A web app to track the amount of confirmed cases, deaths, and recoveries from COVID-19. Scrapes data from Johns Hopkins.',
+            tech: [icons.react, icons.js, icons.node, icons.css],
+            link: '/covid19-tracker',
+            linkName: '/covid19-tracker',
+            id: 'CovidTracker'
         }
     }
 
@@ -67,6 +75,7 @@ const Work = (props) => {
                 <WorkItem project={workItems.WiserStorage} />
                 <WorkItem project={workItems.VeteranLawncare} />
                 <WorkItem project={workItems.GalaxyWatch} />
+                <WorkItem project={workItems.CovidTracker} />
             </div>
         </div>
     )
