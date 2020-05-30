@@ -11,7 +11,6 @@
     border-radius: 5px;
     background-color: #283747;
     margin-left: 10px;
-    margin-bottom: 20px;
 }
 
 .Stats h3 {
@@ -20,4 +19,13 @@
 
 .Stats h2 {
     margin: 0;
+}
+
+@media screen and (max-width: 1126px) {
+    .Stats {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        width: 90%
+    }
 }

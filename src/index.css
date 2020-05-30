@@ -180,11 +180,18 @@ main {
 }
 
 @media only screen and (max-width: 378px) {
-  .nav-item-noMobile {
+  .bottom-items {
     display: none;
   }
-  .nav-item:last-child {
+}
+
+@media screen and (max-height: 412px) {
+  .navbar {
     display: none;
+  }
+
+  main {
+    margin: 0;
   }
 }
 

@@ -34,3 +34,9 @@
         grid-template-columns: auto;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .WorkItems {
+        margin: 3px;
+    }
+}
