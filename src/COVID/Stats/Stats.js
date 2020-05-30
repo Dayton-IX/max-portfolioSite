@@ -1,5 +1,5 @@
 import React from 'react';
-import useStats from '../../utils/useStats';
+import useStats from '../useStats';
 import classes from './Stats.module.css';
 
 const Stats = (props) => {

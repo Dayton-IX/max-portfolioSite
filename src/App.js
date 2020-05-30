@@ -8,6 +8,7 @@ import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Uses from './USES/Uses';
+import Covid from './COVID/COVID';
 
 class App extends Component {
 	render() {
@@ -24,6 +25,7 @@ class App extends Component {
 						</div>
 					)}/>
 					<Route path='/uses' render={() => <Uses />} />
+					<Route path='/covid19-tracker' render={() => <Covid />} />
 				</main>
 			</BrowserRouter>
 		)
