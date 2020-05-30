@@ -1,7 +1,23 @@
 .Layout {
-    display: inline-block;
+    display: block;
     /* padding: 10px; */
-    margin: 0 auto;
+    margin: auto;
     width: 80%;
     text-align: center;
+}
+
+.Layout h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.Layout a {
+    text-decoration: none;
+    color: #85c1e9;
+    transition: all .2s;
+}
+
+.Layout a:hover {
+    color: #9cd3f7;
+    transition: all .2s;
 }
