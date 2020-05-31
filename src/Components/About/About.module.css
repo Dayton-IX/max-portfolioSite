@@ -187,6 +187,15 @@
     margin-left: -10px;
 }
 
+.SkillsList li {
+    display: grid;
+    grid-template-columns: 20% 15% 90%;
+}
+
+.SkillPercent {
+    align-content: right;
+}
+
 .SkillsList svg, .SkillsList img {
     margin-bottom: -10px;
     height: 33.33px;
