@@ -39,7 +39,7 @@ class Uses extends Component {
                 </div>
                 <div className={classes.UsesMain} >
                     <div className={classes.MenuItems}>
-                        {this.state.hardActive ? <HardwareList /> : this.state.softActive ? <SoftwareList /> : <DrumsList />}
+                        {/* {this.state.hardActive ? <HardwareList /> : this.state.softActive ? <SoftwareList /> : <DrumsList />} */}
                     </div>
                 </div>
             </div>

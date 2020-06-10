@@ -22,3 +22,9 @@
     color: #9cd3f7;
     transition: all .2s;
 }
+
+@media screen and (max-width: 600px) {
+    .Layout {
+        padding-bottom: 90px;
+    }
+}
