@@ -2,13 +2,13 @@ import React from 'react';
 
 import UsesItem from '../UsesItem/UsesItem';
 
-const SoftWareList = (props) => {
+const GearList = (props) => {
     return (
         <div>
-            <h1>Software</h1>
+            <h1>Gear</h1>
             <UsesItem />
         </div>
     )
 };
 
-export default SoftWareList;
+export default GearList;

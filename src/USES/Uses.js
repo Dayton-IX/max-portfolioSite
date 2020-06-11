@@ -3,25 +3,25 @@ import React, { Component } from 'react';
 import classes from './Uses.module.css';
 import HardwareList from './lists/HardwareList';
 import SoftwareList from './lists/SoftwareList';
-import DrumsList from './lists/DrumsList';
+import GearList from './lists/GearList';
 
 class Uses extends Component {
     state = {
         hardActive: true,
         softActive: false,
-        drumActive: false
+        gearActive: false
     }
 
     hardClicked = () => {
-        this.setState({hardActive: true, softActive: false, drumActive: false})
+        this.setState({hardActive: true, softActive: false, gearActive: false})
     }
 
     softClicked = () => {
-        this.setState({hardActive: false, softActive: true, drumActive: false})
+        this.setState({hardActive: false, softActive: true, gearActive: false})
     }
 
-    drumClicked = () => {
-        this.setState({hardActive: false, softActive: false, drumActive: true})
+    gearClicked = () => {
+        this.setState({hardActive: false, softActive: false, gearActive: true})
     }
 
     render () {
@@ -34,12 +34,12 @@ class Uses extends Component {
                     <div className={classes.UsesNavItems}>
                         <button className={this.state.hardActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.hardClicked}>Hardware</button>
                         <button className={this.state.softActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.softClicked}>Software</button>
-                        <button className={this.state.drumActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.drumClicked}>Drums</button>
+                        <button className={this.state.drumActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.gearClicked}>Gear</button>
                     </div>
                 </div>
                 <div className={classes.UsesMain} >
                     <div className={classes.MenuItems}>
-                        {/* {this.state.hardActive ? <HardwareList /> : this.state.softActive ? <SoftwareList /> : <DrumsList />} */}
+                        {this.state.hardActive ? <HardwareList /> : this.state.softActive ? <SoftwareList /> : <GearList />}
                     </div>
                 </div>
             </div>
