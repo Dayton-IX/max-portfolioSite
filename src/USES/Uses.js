@@ -34,11 +34,11 @@ class Uses extends Component {
                     <div className={classes.UsesNavItems}>
                         <button className={this.state.hardActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.hardClicked}>Hardware</button>
                         <button className={this.state.softActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.softClicked}>Software</button>
-                        <button className={this.state.drumActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.gearClicked}>Gear</button>
+                        <button className={this.state.gearActive ? classes.UsesLinkActive : classes.UsesLink} onClick={this.gearClicked}>Gear</button>
                     </div>
                 </div>
                 <div className={classes.UsesMain} >
-                    <div className={classes.MenuItems}>
+                    <div className={classes.UsesItems}>
                         {this.state.hardActive ? <HardwareList /> : this.state.softActive ? <SoftwareList /> : <GearList />}
                     </div>
                 </div>
