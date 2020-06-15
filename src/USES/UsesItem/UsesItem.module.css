@@ -6,14 +6,27 @@
     margin: 10px;
 }
 
-.UsesItem svg {
-    height: 60px;
+.UsesItem svg, .UsesItem img {
+    height: 50px;
     fill: #EAF2F8;
     margin: auto;
     text-align: center;
 }
 
 .UsesItemTitle {
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.UsesItemName {
+    font-weight: lighter;
+    margin: 0;
+    font-size: 22px;
+}
+
+.UsesItemText {
+    font-weight: lighter;
+    font-size: 16px;
 }
