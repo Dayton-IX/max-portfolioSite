@@ -68,7 +68,10 @@
     width: 95%;
     margin: auto;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
     max-width: 1450px;
+}
+
+.UsesItems span {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
 }
