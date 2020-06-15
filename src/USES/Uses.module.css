@@ -21,6 +21,8 @@
 
 .UsesSubheader {
     margin-left: 2rem;
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 .UsesNav {
@@ -28,6 +30,11 @@
     width: max-content;
     border-radius: 0 5px 5px 0;
     padding: 0 10px;
+}
+
+.UsesMain {
+    padding-top: 0px;
+    background-color: #F7F9F9;
 }
 
 .UsesLink {
@@ -60,7 +67,7 @@
 .UsesItems {
     width: 95%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     max-width: 1450px;

@@ -1,0 +1,19 @@
+.UsesItem {
+    background-color: #223442;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.UsesItem svg {
+    width: 60px;
+    fill: #EAF2F8;
+    margin: auto;
+    text-align: center;
+}
+
+.UsesItemTitle {
+    font-size: 36px;
+    margin: 0;
+}
