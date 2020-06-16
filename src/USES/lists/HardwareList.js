@@ -16,7 +16,7 @@ const HardWareList = (props) => {
             <UsesItem icon={laptop} title='Laptop' name='MSI GS65 Stealth' text='My code machine. A beautiful, thin, gold trimmed, sticker plastered beast.'/>
             <UsesItem icon={processor} title='Processor' name='Intel Core i7 9th Gen' text='6 cores, 12 logical processors'/>
             <UsesItem icon={ram} title='Memory' name='16GB RAM' />
-            <UsesItem icon={processor} title='GPU' name='NVIDIA GeForce GTX 1660 Ti' />
+            <UsesItem icon={processor} title='Graphics Card' name='NVIDIA GeForce GTX 1660 Ti' />
             <UsesItem icon={keyboard} title='Keyboard' name='Steelseries Keyboard' text="My laptop has a built in, programmable-RGB, Steelseries keyboard."/>
             <UsesItem icon={mouse} title='Mouse' name='Steelseries Rival 600' text="A wired, programmable-RGB, Steelseries Mouse with the ability to add and remove weight."/>
             <UsesItem icon={mobile} title='Smartphone' name='Samsung Galaxy S10+' text="I'm definitely an Android Guy." />
