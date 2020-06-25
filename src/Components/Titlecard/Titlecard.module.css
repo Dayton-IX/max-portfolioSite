@@ -24,13 +24,14 @@
 .DescriptionBlock {
     font-family: Consolas;
     width: 90%;
-    height: 246px;
+    height: min-content;
     margin: 1rem;
     background-color: #17202A;
     border-radius: 10px;
     font-size: 22px;
     padding: 20px;
     padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 .DescriptionBlock p {
