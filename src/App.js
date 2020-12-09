@@ -19,8 +19,8 @@ class App extends Component {
 					<Route path='/' exact render={() => (
 						<div>
 							<Titlecard />
-							<About />
 							<Work />
+							<About />
 							<Contact />
 						</div>
 					)}/>

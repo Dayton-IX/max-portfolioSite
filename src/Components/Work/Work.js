@@ -20,7 +20,7 @@ const Work = (props) => {
             title: 'Central Valley Foods',
             text: 'An ecommerce site for farm products, utilizing online shopping features like a cart, order form, and credit card checkout.',
             tech: [icons.react, icons.redux, icons.js, icons.node, icons.css],
-            link: 'https://www.centralvalleyfoods.net',
+            link: 'https://centralvalleyfoods.net',
             linkName: 'centralvalleyfoods.net',
             id: 'CentralValleyFoods'
         },
