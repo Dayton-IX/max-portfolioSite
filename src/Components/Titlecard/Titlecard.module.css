@@ -1,5 +1,7 @@
 .Titlecard {
-    background-color: #34495E;
+    background-color: #e24b37;
+    background-image: url('../../assets/98doiv3c.bmp');
+    background-size: cover;
     color: #EAF2F8;
     width: 100%;
     left: 0;
@@ -26,12 +28,13 @@
     width: 90%;
     height: min-content;
     margin: 1rem;
-    background-color: #17202A;
+    /* background-color: #17202A; */
     border-radius: 10px;
     font-size: 22px;
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 30px;
+    background: rgba(55, 55, 58, 0.6);
 }
 
 .DescriptionBlock p {
@@ -48,7 +51,8 @@
 
 .DescriptionBlock ul {
     list-style-type: none;
-    color: #F0B27A;
+    /* color: #F0B27A; */
+    color: #3498DB;
 }
 
 .Comma {
@@ -61,9 +65,9 @@
 
 .Titlecard a {
     text-decoration: none;
-    color: #85c1e9;
+    color: #ffffff;
     font-size: 36px;
-    border: 1px solid #85c1e9;
+    border: 1px solid #ffffff;
     width: 323px;
     height: 52px;
     border-radius: 5px;
@@ -82,9 +86,10 @@
 }
 
 .Titlecard a:hover, .Titlecard a:focus {
-    background-color: #85c1e9;
+    background: rgba(235, 70, 70, 1);
     color: #EAF2F8;
     transition: all .2s;
+    border-color: rgb(235, 70, 70)
 }
 
 .DesktopFace {
