@@ -3,7 +3,7 @@
   font-family: 'Open Sans' -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #1C2833;
+  --bg-primary: black;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   scrollbar-width: thin;

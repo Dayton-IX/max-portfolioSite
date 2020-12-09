@@ -38,11 +38,12 @@
 }
 
 .DescriptionBlock p {
-    color: #3498DB;
+    /* color: #3498DB; */
+    color: #fff;
 }
 
 .Bracket {
-    color: #85C1E9;
+    color: #fff;
 }
 
 .Semicolon {
@@ -52,7 +53,8 @@
 .DescriptionBlock ul {
     list-style-type: none;
     /* color: #F0B27A; */
-    color: #3498DB;
+    /* color: #3498DB; */
+    color: #fff;
 }
 
 .Comma {
@@ -86,10 +88,12 @@
 }
 
 .Titlecard a:hover, .Titlecard a:focus {
-    background: rgba(235, 70, 70, 1);
-    color: #EAF2F8;
+    /* background: rgba(235, 70, 70, 1); */
+    color: rgb(235, 70, 70);
     transition: all .2s;
-    border-color: rgb(235, 70, 70)
+    /* border-color: rgb(235, 70, 70) */
+    background-color: black;
+    border-color: black;
 }
 
 .DesktopFace {
