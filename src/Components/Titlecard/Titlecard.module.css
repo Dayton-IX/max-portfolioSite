@@ -1,15 +1,15 @@
 .Titlecard {
     background-color: #e24b37;
     background-image: url('../../assets/98doiv3c.bmp');
-    background-size: cover;
     color: #EAF2F8;
     width: 100%;
+    height: 100vh;
     left: 0;
     top: 0;
     /* padding-left: 1rem; */
-    padding-bottom: 30px;
     display: grid;
     grid-template-columns: 50% 50%;
+    vertical-align: middle;
 }
 
 .Titlecardtext {

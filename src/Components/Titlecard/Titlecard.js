@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Titlecard.module.css';
 
-import face from '../../assets/face.jpg';
+import face from '../../assets/20200531_130159.jpg';
 import WithFade from '../../hoc/Fade/withFade';
 
 const Titlecard = (props) => (
@@ -38,9 +38,9 @@ const Titlecard = (props) => (
                 </a>
             </WithFade>
         </div>
-        {/* <WithFade type="right">
+        <WithFade type="right">
             <img className={classes.DesktopFace} src={face} alt="face" />
-        </WithFade> */}
+        </WithFade>
     </div>
 );
 
