@@ -1,8 +1,10 @@
 .Contact {
-    background-color: #283747;
+    /* background-color: #283747; */
+    background-color: rgb(20, 20, 20);
     width: 100%;
     left: 0;
     top: 0;
+    bottom: 0;
     margin-bottom: 0;
     /* padding-left: 1rem; */
 }
