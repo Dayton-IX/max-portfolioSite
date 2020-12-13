@@ -42,12 +42,12 @@ const About = (props) => (
                 <div className={classes.WhoAmIBlock}>
                     <img className={classes.WhoAmIImg} src={face} alt="face" />
                     <h3 className={classes.WhoAmIHeader}>Who am I?</h3>
-                    <hr className={classes.WhoAmIHr} />
+                    {/* <hr className={classes.WhoAmIHr} /> */}
                     <p className={classes.WhoAmIText}>
                         I’m Maximus Dayton, Max for short. 
                         I’m a passionate full stack developer and entrepreneur based in Salt Lake City Utah.
                         I specialize in building clean, modern, efficient, and well designed React Web and Mobile applications!
-                        My passion is using code to build amazing things to make peoples lives better!
+                        My passion is using code to build amazing things that make peoples lives better!
                     </p>
                     <a href="#contact" className={classes.WhoAmILink}>Let's Get In Touch</a>
                 </div>

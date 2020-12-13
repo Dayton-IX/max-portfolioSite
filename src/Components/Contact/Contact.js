@@ -43,7 +43,7 @@ class Contact extends Component {
     render() {
         return (
             <div id="contact" className={classes.Contact}>
-                <h1 className={classes.ContactHeader}>Get In Touch.</h1>
+                <h1 className={classes.ContactHeader}>Contact.</h1>
                 <div className={classes.ContactMain}>
                     <div className={classes.ContactLeft}>
                         <div className={classes.ContactFormContainer}>

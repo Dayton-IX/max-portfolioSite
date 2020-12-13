@@ -7,7 +7,7 @@
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   scrollbar-width: thin;
-  scrollbar-color: #17202A #34495E;
+  scrollbar-color: #f15555 rgb(20, 20, 20);
   overflow-x: hidden;
 }
 
