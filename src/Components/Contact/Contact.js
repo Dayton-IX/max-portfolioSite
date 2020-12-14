@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classes from './Contact.module.css';
 import contactImg from '../../assets/laptopBack.jpg';
 import WithFade from '../../hoc/Fade/withFade';
-import axios from '../../secret/axios-mail';
 import emailjs from 'emailjs-com';
 
 class Contact extends Component {
@@ -47,23 +46,6 @@ class Contact extends Component {
                 console.log('FAILED...', error)
             })
     }
-
-    // mailHandler = (event) => {
-    //     event.preventDefault();
-    //     this.setState({sendRequest: true})
-    //     if (this.state.name !== '' && this.state.email !== '' && this.state.message !== '') {
-    //         this.setState({formValid: true});
-    //         axios.post('/sendMail', {
-    //             name: this.state.name,
-    //             email: this.state.email,
-    //             message: this.state.message
-    //         }).then(response => {
-    //             console.log(response);
-    //         }).catch(error => {
-    //             console.log(error);
-    //         });
-    //     }
-    // }
 
     render() {
         return (
