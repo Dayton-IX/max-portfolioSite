@@ -114,6 +114,7 @@
 }
 
 .FollowMeSvg {
+    height: 30px;
     width: 30px;
     margin-bottom: -7px;
 }
@@ -128,7 +129,7 @@
 }
 
 .FollowMeLink:hover, .FollowMeLink:focus {
-    color: #e74c3c;
+    color: #f15555;
     transition: all .2s;
 }
 

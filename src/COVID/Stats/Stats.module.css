@@ -8,7 +8,8 @@
     font-weight: lighter;
     padding-bottom: 20px;
     border-radius: 5px;
-    background-color: #283747;
+    /* background-color: #283747; */
+    background: rgba(55, 55, 58, 0.6);
     margin-left: 10px;
 }
 
