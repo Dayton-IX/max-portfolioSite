@@ -26,7 +26,7 @@
 }
 
 .ContactFormContainer {
-    background-color: #34495E;
+    background-color: #17202A;
     border-radius: 0 5px 0 0;
     margin-bottom: 0;
 }
@@ -68,8 +68,8 @@
     width: 300px;
     height: 35px;
     font-size: 20px;
-    color: #85C1E9;
-    border: 1px solid #85C1E9;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
     background-color: transparent;
     border-radius: 3px;
     transition: all .2s;
@@ -78,7 +78,7 @@
 }
 
 .FormButton:hover, .FormButton:focus {
-    background-color: #85C1E9;
+    background-color: #e74c3c;
     color: #ffffff;
     transition: all .2s;
 }
@@ -96,7 +96,7 @@
 }
 
 .FollowMe {
-    background-color: #DDF0FF;
+    background-color: #000000;
     border-radius: 0 5px 0 0;
     width: 362px;
     margin-bottom: 0;
@@ -119,7 +119,7 @@
 }
 
 .FollowMeLink {
-    color: #3C99DC;
+    color: #ffffff;
     font-size: 18px;
     font-weight: lighter;
     text-decoration: none;
@@ -128,7 +128,7 @@
 }
 
 .FollowMeLink:hover, .FollowMeLink:focus {
-    color: rgb(106, 192, 250);
+    color: #e74c3c;
     transition: all .2s;
 }
 
