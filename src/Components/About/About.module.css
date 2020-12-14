@@ -1,5 +1,8 @@
 .About {
     width: 100%;
+    background-color: #f15555;
+    background: url('../../assets/98doiv3c.bmp');
+    background-position: right bottom;
     left: 0;
     top: 0;
     /* padding-left: 1rem; */
@@ -11,7 +14,9 @@
     font-weight: lighter;
     font-size: 72px;
     margin: 1rem;
+    margin-top: 0;
     margin-bottom: 30px;
+    color: #fff;
 }
 
 .AboutBlocks {
@@ -23,12 +28,12 @@
 
 .AboutBlock {
     width: 85%;
-    height: 240px;
+    height: 220px;
     border-radius: 20px;
-    background-color: #34495E;
     text-align: center;
-    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25); */
     padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .Rocket {
@@ -61,13 +66,8 @@
     margin: 0;
 }
 
-.AboutBlockHr {
-    width: 190.01px;
-    color: #EAF2F8;
-}
-
 .AboutBlockText {
-    color: #85C1E9;
+    color: #fff;
     font-size: 18px;
     margin: 0px 5px;
 }
@@ -104,7 +104,8 @@
     background-color: #5D6D7E;
     color: #EAF2F8;
     border-radius: 20px;
-    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25); */
+    background: rgb(27, 27, 27);
     text-align: center;
 }
 
@@ -116,9 +117,10 @@
 }
 
 .WhoAmIHeader {
-    font-size: 36px;
+    font-size: 40px;
     margin: 0;
     font-weight: lighter;
+    color: rgb(235, 70, 70);
 }
 
 .WhoAmIHr {
@@ -129,14 +131,14 @@
 .WhoAmIText {
     font-size: 18px;
     margin: 0px 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .WhoAmILink {
     text-decoration: none;
-    color: #85c1e9;
+    color: rgb(235, 70, 70);
     font-size: 24px;
-    border: 1px solid #85c1e9;
+    border: 1px solid rgb(235, 70, 70);
     width: 188px;
     height: 38px;
     border-radius: 5px;
@@ -145,7 +147,7 @@
 }
 
 .WhoAmILink:hover, .WhoAmILink:focus {
-    background-color: #85c1e9;
+    background-color: rgb(235, 70, 70);
     color: #EAF2F8;
     transition: all .2s;
 }
@@ -158,7 +160,8 @@
     font-family: Consolas;
     z-index: 50;
     margin-top: 15px;
-    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25); */
+    background: rgba(28, 28, 29, 0.9);
     margin-left: -15px;
 }
 
@@ -215,7 +218,7 @@
 
 .HTMLBar {
     background-color: #E44D26;
-    width: 90%;
+    width: 100%;
     height: 21px;
     border-radius: 3px 0 0 3px;
 }
@@ -229,28 +232,35 @@
 
 .JSBar {
     background-color: #F0DB4F;
-    width: 85%;
+    width: 95%;
     height: 21px;
     border-radius: 3px 0 0 3px;
 }
 
 .NodeBar {
     background-color: #68A063;
-    width: 70%;
+    width: 80%;
     height: 21px;
     border-radius: 3px 0 0 3px;
 }
 
 .ReactBar {
     background-color: #61DBFB;
-    width: 85%;
+    width: 95%;
+    height: 21px;
+    border-radius: 3px 0 0 3px;
+}
+
+.ReactNativeBar {
+    background-color: #e74c3c;
+    width: 90%;
     height: 21px;
     border-radius: 3px 0 0 3px;
 }
 
 .ReduxBar {
     background-color: #764ABC;
-    width: 70%;
+    width: 80%;
     height: 21px;
     border-radius: 3px 0 0 3px;
 }
@@ -303,13 +313,13 @@
         width: 95%;
         margin-top: 15px;
         border-radius: 20px;
-
+        margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 627px) {
     .About {
-        padding-bottom: 0;
+        padding-bottom: 30;
     }
 
     .AboutBlocks {

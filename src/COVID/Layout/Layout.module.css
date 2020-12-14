@@ -14,12 +14,12 @@
 
 .Layout a {
     text-decoration: none;
-    color: #85c1e9;
+    color: #000000;
     transition: all .2s;
 }
 
 .Layout a:hover {
-    color: #9cd3f7;
+    color: #f15555;
     transition: all .2s;
 }
 

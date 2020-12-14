@@ -6,10 +6,10 @@
     width: 45%;
     display: inline-block;
     font-weight: lighter;
-    border: 3px solid #EAF2F8;
     padding-bottom: 20px;
     border-radius: 5px;
-    background-color: #283747;
+    /* background-color: #283747; */
+    background: rgba(55, 55, 58, 0.6);
     margin-left: 10px;
 }
 
