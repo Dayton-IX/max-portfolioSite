@@ -1,5 +1,6 @@
 .UsesItem {
-    background-color: #223442;
+    /* background-color: #223442; */
+    background: rgba(55, 55, 58, 0.6);
     border-radius: 15px;
     text-align: center;
     padding: 10px;
