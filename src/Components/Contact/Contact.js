@@ -3,11 +3,13 @@ import classes from './Contact.module.css';
 import contactImg from '../../assets/laptopBack.jpg';
 import WithFade from '../../hoc/Fade/withFade';
 import axios from '../../secret/axios-mail';
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
     state = {
         name: '',
         email: '',
+        reciever: 'daytonmaximus@gmail.com',
         message: '',
         formValid: false,
         sendRequest: false
@@ -25,20 +27,43 @@ class Contact extends Component {
 
     mailHandler = (event) => {
         event.preventDefault();
-        this.setState({sendRequest: true})
+        this.setState({sendRequest: true});
+        const templateParams = {
+            name: this.state.name,
+            email: this.state.email,
+            message: this.state.message
+        }
         if (this.state.name !== '' && this.state.email !== '' && this.state.message !== '') {
             this.setState({formValid: true});
-            axios.post('/sendMail', {
-                name: this.state.name,
-                email: this.state.email,
-                message: this.state.message
-            }).then(response => {
-                console.log(response);
-            }).catch(error => {
-                console.log(error);
-            });
-        }
+            this.sendMail(templateParams);
+        } 
     }
+
+    sendMail = (templateParams) => {
+        emailjs.send('service_swzti2i', 'template_xoygqb2', templateParams, 'user_P3wAe0p5APdDjTMnYQlVq')
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            }).catch((error) => {
+                console.log('FAILED...', error)
+            })
+    }
+
+    // mailHandler = (event) => {
+    //     event.preventDefault();
+    //     this.setState({sendRequest: true})
+    //     if (this.state.name !== '' && this.state.email !== '' && this.state.message !== '') {
+    //         this.setState({formValid: true});
+    //         axios.post('/sendMail', {
+    //             name: this.state.name,
+    //             email: this.state.email,
+    //             message: this.state.message
+    //         }).then(response => {
+    //             console.log(response);
+    //         }).catch(error => {
+    //             console.log(error);
+    //         });
+    //     }
+    // }
 
     render() {
         return (
