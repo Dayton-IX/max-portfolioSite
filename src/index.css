@@ -134,6 +134,7 @@ main {
   transition: var(--transition-speed);
   width: 69px;
   height: 69px;
+  margin-left: 6px;
 }
 
 .logo-text

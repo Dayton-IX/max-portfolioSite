@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/MDLogo.png';
+import logo from '../../assets/MDLogo.svg';
 import { NavLink } from 'react-router-dom';
 // import WithFade from '../../hoc/Fade/withFade';
 
