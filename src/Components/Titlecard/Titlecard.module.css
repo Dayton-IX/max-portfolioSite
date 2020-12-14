@@ -26,7 +26,7 @@
 .DescriptionBlock {
     font-family: Consolas;
     width: 90%;
-    height: min-content;
+    /* height: min-content; */
     margin: 1rem;
     /* background-color: #17202A; */
     border-radius: 10px;

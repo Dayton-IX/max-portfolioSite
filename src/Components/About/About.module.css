@@ -313,13 +313,13 @@
         width: 95%;
         margin-top: 15px;
         border-radius: 20px;
-
+        margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 627px) {
     .About {
-        padding-bottom: 0;
+        padding-bottom: 30;
     }
 
     .AboutBlocks {
