@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './Titlecard.module.css';
 
-import face from '../../assets/20200531_130159.jpg';
+// import face from '../../assets/20200531_130159.jpg';
+import face from '../../assets/face.jpg';
 import WithFade from '../../hoc/Fade/withFade';
 
 const Titlecard = (props) => (

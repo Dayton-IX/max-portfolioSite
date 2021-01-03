@@ -101,7 +101,7 @@
     height: 530px;
     border-radius: 20px;
     margin: 20px;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 .DesktopFace {
