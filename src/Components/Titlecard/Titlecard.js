@@ -39,7 +39,9 @@ const Titlecard = (props) => (
             </WithFade>
         </div>
         <WithFade type="right">
-            <img className={classes.DesktopFace} src={face} alt="face" />
+            <div className={classes.imgWrapper}>
+                <img className={classes.DesktopFace} src={face} alt="face" />
+            </div>
         </WithFade>
     </div>
 );
