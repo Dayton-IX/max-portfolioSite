@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './WorkItem.module.css';
-import WithFade from '../../../hoc/Fade/withFade'
+import WithFade from '../../../hoc/Fade/withFade';
 
-import reduxLogo from '../../../assets/reduxLogo.png';
+import reduxLogo from '../../../assets/reduxLogo.svg';
 
 const WorkItem = (props) => {
 

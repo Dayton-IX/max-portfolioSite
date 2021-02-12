@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Work.module.css';
 
 import WorkItem from './WorkItem/WorkItem';
-import reduxLogo from '../../assets/reduxLogo.png';
+import reduxLogo from '../../assets/reduxLogo.svg';
 // import WithFade from '../../hoc/Fade/withFade';
 
 const Work = (props) => {
