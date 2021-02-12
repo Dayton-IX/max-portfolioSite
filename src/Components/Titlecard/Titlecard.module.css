@@ -116,6 +116,10 @@
         display: block;
     }
 
+    .imgWrapper {
+        display: none;
+    }
+
     .DesktopFace {
         display: none;
     }
