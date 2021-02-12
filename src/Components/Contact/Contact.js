@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Contact.module.css';
-import contactImg from '../../assets/laptopBack.jpg';
+import contactImg from '../../assets/contactImage.webp';
 import WithFade from '../../hoc/Fade/withFade';
 import emailjs from 'emailjs-com';
 

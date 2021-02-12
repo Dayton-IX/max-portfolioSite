@@ -13,14 +13,12 @@ const HardWareList = (props) => {
 
     return (
         <span>
-            <UsesItem icon={laptop} title='Laptop' name='MSI GS65 Stealth' text='My code machine. A beautiful, thin, gold trimmed, sticker plastered beast.'/>
-            <UsesItem icon={processor} title='Processor' name='Intel Core i7 9th Gen' text='6 cores, 12 logical processors'/>
+            <UsesItem icon={laptop} title='Laptop' name='2020 MacBook Air M1' text='Got back into the Apple ecosystem just for the M1 processor. Space Grey.'/>
+            <UsesItem icon={processor} title='Processor' name='Apple M1' text='8 Cores'/>
             <UsesItem icon={ram} title='Memory' name='16GB RAM' />
-            <UsesItem icon={processor} title='Graphics Card' name='NVIDIA GeForce GTX 1660 Ti' />
-            <UsesItem icon={keyboard} title='Keyboard' name='Steelseries Keyboard' text="My laptop has a built in, programmable-RGB, Steelseries keyboard."/>
-            <UsesItem icon={mouse} title='Mouse' name='Steelseries Rival 600' text="A wired, programmable-RGB, Steelseries Mouse with the ability to add and remove weight."/>
-            <UsesItem icon={mobile} title='Smartphone' name='Samsung Galaxy S10+' text="I'm definitely an Android Guy." />
-            <UsesItem icon={watch} title='Smartwatch' name='Samsung Galaxy Watch' text="I have the silver version, and I made my own custom watch face for it." />
+            <UsesItem icon={keyboard} title='Keyboard' name='Built In Magic Keyboard' text="Feels real nice."/>
+            <UsesItem icon={mobile} title='Smartphone' name='Product RED IPhone 12' text="My first IPhone since I had the IPhone 5s 3 years ago." />
+            <UsesItem icon={watch} title='Smartwatch' name='Product RED Apple Watch Series 6' text="I love this watch! It helps me stay on top of my fitness goals!" />
         </span>
     )
 };

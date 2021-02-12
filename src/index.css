@@ -9,6 +9,7 @@
   scrollbar-width: thin;
   scrollbar-color: #f15555 rgb(20, 20, 20);
   overflow-x: hidden;
+  background-color: var(--bg-primary);
 }
 
 ::-webkit-scrollbar {
@@ -279,19 +280,19 @@ main {
 
 /* Images In Work Section */
 #CentralValleyFoods {
-  background-image: url('./assets/CentralValleyFoods1.png');
+  background-image: url('./assets/CentralValleyFoods1.webp');
 }
 
 #SchwabBakery {
-  background-image: url('./assets/schwabBakery.png');
+  background-image: url('./assets/schwabBakery.webp');
 }
 
 #WiserStorage {
-  background-image: url('./assets/WiserStorage.png');
+  background-image: url('./assets/WiserStorage.webp');
 }
 
 #VeteranLawncare {
-  background-image: url('./assets/VeteranLawncare.png');
+  background-image: url('./assets/VeteranLawncare.webp');
 }
 
 #GalaxyWatch {
@@ -299,5 +300,5 @@ main {
 }
 
 #CovidTracker {
-  background-image: url('./assets/COVIDTracker.png');
+  background-image: url('./assets/covidTracker.webp');
 }

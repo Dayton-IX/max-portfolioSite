@@ -1,6 +1,6 @@
 .About {
-    background-color: #f15555;
-    background-image: url('../../assets/98doiv3c.bmp');
+    background-color: #FEB54C;
+    background-image: url('../../assets/backgroundGradient.webp');
     color: #EAF2F8;
     width: 100%;
     /* height: 100vh; */
@@ -157,7 +157,7 @@
     width: 100%;
     border-radius: 0 20px 20px 0;
     background-color: #17202A;
-    font-family: Consolas;
+    font-family: Consolas, 'Open Sans' -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     z-index: 50;
     margin-top: 15px;
     padding-bottom: 10px;
@@ -215,62 +215,63 @@
     margin-top: 7px;
     margin-left: 5px;
     margin-right: 10px;
+    overflow: hidden;
 }
 
 .HTMLBar {
     background-color: #E44D26;
     width: 100%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .CSSBar {
     background-color: #3C99DC;
     width: 90%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .JSBar {
     background-color: #F0DB4F;
     width: 95%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .NodeBar {
     background-color: #68A063;
     width: 80%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .ReactBar {
     background-color: #61DBFB;
     width: 95%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .ReactNativeBar {
     background-color: #e74c3c;
     width: 90%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .ReduxBar {
     background-color: #764ABC;
     width: 80%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 .WebDesignBar {
     background-color: #F1948A;
     width: 80%;
     height: 21px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
 }
 
 @media screen and (max-width: 1280px) {

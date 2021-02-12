@@ -32,9 +32,9 @@
 }
 
 .UsesMain {
-    background-image: url('../assets/98doiv3c.bmp');
+    background-image: url('../assets/backgroundGradient.webp');
     padding-top: 0px;
-    background-color: #f15555;
+    background-color: #FEB54C;
     background-position: bottom left;
     height: 80vh;
 }
