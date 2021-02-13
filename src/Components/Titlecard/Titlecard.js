@@ -8,7 +8,7 @@ import WithFade from '../../hoc/Fade/withFade';
 const Titlecard = (props) => (
     <div id="home" className={classes.Titlecard}>
         <div className={classes.Titlecardtext} >
-            <WithFade type="left"><h1>Hi, <br /> I'm Max Dayton.</h1></WithFade>
+            <WithFade type="left"><h1>Hi, <br /> I'm Maximus.</h1></WithFade>
             {/* <img className={classes.MobileFace} src={face} alt="face" /> */}
             <WithFade type="left">
                 <div className={classes.DescriptionBlock}>
