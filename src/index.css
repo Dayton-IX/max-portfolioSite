@@ -280,6 +280,10 @@ main {
 
 
 /* Images In Work Section */
+#IdeaMakers {
+  background-image: url('./assets/IdeaMakers.webp');
+}
+
 #CentralValleyFoods {
   background-image: url('./assets/CentralValleyFoods1.webp');
 }

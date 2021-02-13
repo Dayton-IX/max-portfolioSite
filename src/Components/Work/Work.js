@@ -15,8 +15,16 @@ const Work = (props) => {
         css: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#3C99DC" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
     }
 
-    const workItems = {
-        CentralValleyFoods: {
+    const workItems = [
+        {
+            title: 'Idea Makers',
+            text: 'Idea Makers is a full stack product development firm that can turn any Idea into a reality! I redesigned and revamped their website!',
+            tech: [icons.react, icons.js, icons.node, icons.css],
+            link: 'https://ideamakersinc.com',
+            linkName: 'ideamakersinc.com',
+            id: 'IdeaMakers'
+        },
+        {
             title: 'Central Valley Foods',
             text: 'An ecommerce site for farm products, utilizing online shopping features like a cart, order form, and credit card checkout.',
             tech: [icons.react, icons.redux, icons.js, icons.node, icons.css],
@@ -24,7 +32,7 @@ const Work = (props) => {
             linkName: 'centralvalleyfoods.net',
             id: 'CentralValleyFoods'
         },
-        SchwabBakery: {
+        {
             title: 'The Schwab Bakery',
             text: 'A stylish site for The Schwab Bakery, a small bakery in Smithfield Utah.',
             tech: [icons.react, icons.js, icons.node, icons.css],
@@ -32,7 +40,7 @@ const Work = (props) => {
             linkName: 'schwabbakery.com',
             id: 'SchwabBakery'
         },
-        WiserStorage: {
+        {
             title: 'Wiser Storage',
             text: 'A small teaser site with a contact form for a storage company coming to Richmond Utah.',
             tech: [icons.html, icons.css, icons.js, icons.node],
@@ -40,7 +48,7 @@ const Work = (props) => {
             linkName: 'wiserstorage.net',
             id: 'WiserStorage'
         },
-        VeteranLawncare: {
+        {
             title: 'Veteran Lawncare',
             text: 'I helped with the some of the design, and implemented some payment features into this Squarespace site.',
             tech: [icons.html, icons.css, icons.js, icons.node],
@@ -48,15 +56,15 @@ const Work = (props) => {
             linkName: 'veteranlawncareandsprinklers.com',
             id: 'VeteranLawncare'
         },
-        GalaxyWatch: {
+        {
             title: 'Neumorphic Watch Face',
             text: 'I created and published a watch face for the Samsung Galaxy Watch using web technologies to prototype it.',
             tech: [icons.html, icons.css, icons.js],
-            link: '/watchFace',
+            link: '',
             linkName: 'Web Version',
             id: 'GalaxyWatch'
         },
-        CovidTracker: {
+        {
             title: 'COVID-19 Tracker',
             text: 'A web app to track the amount of confirmed cases, deaths, and recoveries from COVID-19. Scrapes data from Johns Hopkins.',
             tech: [icons.react, icons.js, icons.node, icons.css],
@@ -64,18 +72,21 @@ const Work = (props) => {
             linkName: '/covid19-tracker',
             id: 'CovidTracker'
         }
-    }
+    ]
 
     return (
         <div id="work" className={classes.Work}>
             <h1 className={classes.WorkHeader}>My Work.</h1>
             <div className={classes.WorkItems}>
-                <WorkItem project={workItems.CentralValleyFoods} />
+                {workItems.map(workItem => (
+                    <WorkItem project={workItem} />
+                ))}
+                {/* <WorkItem project={workItems.CentralValleyFoods} />
                 <WorkItem project={workItems.SchwabBakery} />
                 <WorkItem project={workItems.WiserStorage} />
                 <WorkItem project={workItems.VeteranLawncare} />
                 <WorkItem project={workItems.GalaxyWatch} noLink />
-                <WorkItem project={workItems.CovidTracker} />
+                <WorkItem project={workItems.CovidTracker} /> */}
             </div>
         </div>
     )
