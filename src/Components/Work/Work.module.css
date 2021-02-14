@@ -18,6 +18,16 @@
     color: rgb(235, 70, 70);
 }
 
+.workHistory {
+    align-self: center;
+    width: 90%;
+    max-width: 1000px;
+    background-image: url('../../assets/backgroundGradient1.webp');
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+}
+
 .WorkItems {
     width: 95%;
     margin: auto;

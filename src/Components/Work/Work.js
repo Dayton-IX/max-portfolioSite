@@ -72,21 +72,42 @@ const Work = (props) => {
             linkName: '/covid19-tracker',
             id: 'CovidTracker'
         }
+    ];
+
+    const workHistory = [
+        {
+            title: 'Senior Software Engineer / Project Team Lead',
+            employer: 'Sapa Investment Group',
+            startDate: 'November 2020',
+            endDate: 'Present',
+            description: 'I am working as a senior full-stack React Web application and React Native mobile application developer. I am also leading a team of designers and developers on the development of a large scale mobile application.',
+        },
+        {
+            title: 'Freelance Full Stack Developer',
+            employer: 'Dayton Web Development',
+            startDate: 'June 2019',
+            endDate: 'Present',
+            description: 'I work as a freelance web and mobile application developer, creating a variety of applications and software for clients.'
+        }
     ]
 
     return (
         <div id="work" className={classes.Work}>
             <h1 className={classes.WorkHeader}>My Work.</h1>
+            <div className={classes.workHistory}>
+                {workHistory.map(job => (
+                    <div className={classes.job}>
+                        <h4 className={classes.jobTitle}>{job.title}</h4>
+                        <h5 className={classes.jobEmployer}>{job.employer}</h5>
+                        <p className={classes.jobTimeFrame}>{job.startDate} - {job.endDate}</p>
+                        <p className={classes.jobDescription}>{job.description}</p>
+                    </div>
+                ))}
+            </div>
             <div className={classes.WorkItems}>
                 {workItems.map(workItem => (
                     <WorkItem project={workItem} />
                 ))}
-                {/* <WorkItem project={workItems.CentralValleyFoods} />
-                <WorkItem project={workItems.SchwabBakery} />
-                <WorkItem project={workItems.WiserStorage} />
-                <WorkItem project={workItems.VeteranLawncare} />
-                <WorkItem project={workItems.GalaxyWatch} noLink />
-                <WorkItem project={workItems.CovidTracker} /> */}
             </div>
         </div>
     )
