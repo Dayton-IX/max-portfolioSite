@@ -26,6 +26,14 @@
     background-size: cover;
     border-radius: 10px;
     margin: auto;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+}
+
+.workHistoryHeader {
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 40px;
 }
 
 .WorkItems {

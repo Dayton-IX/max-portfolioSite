@@ -95,8 +95,9 @@ const Work = (props) => {
         <div id="work" className={classes.Work}>
             <h1 className={classes.WorkHeader}>My Work.</h1>
             <div className={classes.workHistory}>
+                <h2 className={classes.workHistoryHeader}>Work History.</h2>
                 {workHistory.map(job => (
-                    <div className={classes.job}>
+                    <div key={job.title} className={classes.job}>
                         <h4 className={classes.jobTitle}>{job.title}</h4>
                         <h5 className={classes.jobEmployer}>{job.employer}</h5>
                         <p className={classes.jobTimeFrame}>{job.startDate} - {job.endDate}</p>
@@ -106,7 +107,7 @@ const Work = (props) => {
             </div>
             <div className={classes.WorkItems}>
                 {workItems.map(workItem => (
-                    <WorkItem project={workItem} />
+                    <WorkItem  key={workItem.title} project={workItem} />
                 ))}
             </div>
         </div>
