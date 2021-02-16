@@ -1,5 +1,7 @@
 .WorkItem {
     width: 95%;
+    align-self: center;
+    margin: auto;
     height: 300px;
     border-radius: 10px;
     background-size: cover;
