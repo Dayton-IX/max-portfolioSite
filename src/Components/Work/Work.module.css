@@ -43,14 +43,20 @@
 }
 
 .workHistoryItems {
-    margin: 10px
+    margin: 10px;
 }
 
 .job {
-    background: rgba(55, 55, 58, 0.5);
+    background: rgba(55, 55, 58, 0.6);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+    color: #fff;
+}
+
+.jobTitle {
+    font-size: 20px;
+    margin: 0;
 }
 
 .WorkItems {

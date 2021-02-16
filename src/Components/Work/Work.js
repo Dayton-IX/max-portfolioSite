@@ -3,6 +3,7 @@ import classes from './Work.module.css';
 
 import WorkItem from './WorkItem/WorkItem';
 import reduxLogo from '../../assets/reduxLogo.svg';
+import WithFade from '../../hoc/Fade/withFade';
 // import WithFade from '../../hoc/Fade/withFade';
 
 const Work = (props) => {
@@ -94,24 +95,26 @@ const Work = (props) => {
     return (
         <div id="work" className={classes.Work}>
             <h1 className={classes.WorkHeader}>My Work.</h1>
-            <div className={classes.workHistory}>
-                <h2 className={classes.workHistoryHeader}>Work History.</h2>
-                <div className={classes.workHistoryItems}>
-                    {workHistory.map(job => (
-                        <div key={job.title} className={classes.job}>
-                            <h4 className={classes.jobTitle}>{job.title}</h4>
-                            <h5 className={classes.jobEmployer}>{job.employer}</h5>
-                            <p className={classes.jobTimeFrame}>{job.startDate} - {job.endDate}</p>
-                            <p className={classes.jobDescription}>{job.description}</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
             <div className={classes.WorkItems}>
                 {workItems.map(workItem => (
                     <WorkItem  key={workItem.title} project={workItem} />
                 ))}
             </div>
+            <WithFade>
+                <div className={classes.workHistory}>
+                    <h2 className={classes.workHistoryHeader}>Work History.</h2>
+                    <div className={classes.workHistoryItems}>
+                        {workHistory.map(job => (
+                            <div key={job.title} className={classes.job}>
+                                <h4 className={classes.jobTitle}>{job.title}</h4>
+                                <h5 className={classes.jobEmployer}>{job.employer}</h5>
+                                <p className={classes.jobTimeFrame}>{job.startDate} - {job.endDate}</p>
+                                <p className={classes.jobDescription}>{job.description}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </WithFade>
         </div>
     )
 };
