@@ -206,6 +206,12 @@
     width: 33.33px;
 }
 
+.Skills svg, .Skills img {
+    margin-bottom: -10px;
+    height: 33.33px;
+    width: 33.33px;
+}
+
 .WhiteBar {
     background-color: #EAF2F8;
     width: 100%;

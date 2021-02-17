@@ -21,7 +21,7 @@ const Titlecard = (props) => (
                     <ul>
                         <li>profession: <span className={classes.Value}>'Full Stack Software Engineer'</span><span className={classes.Comma}>,</span></li>
                         <li>specialties: <span className={classes.Value}>'Web Applications, Hybrid Mobile Applications, DevOps, Cloud Engineering'</span><span className={classes.Comma}>,</span></li>
-                        <li>topTechnologies: <span className={classes.Value}>'React, React Native, NodeJS, GraphQL, AWS, Firebase'</span><span className={classes.Comma}>,</span></li>
+                        <li>topTechnologies: <span className={classes.Value}>'React, React Native, Node.js, GraphQL, AWS, Firebase'</span><span className={classes.Comma}>,</span></li>
                         <li>yearsOfExperience: <span className={classes.Value}>5</span><span className={classes.Comma}>,</span></li>
                         <li>age: <span className={classes.Value}>19</span></li>
                     </ul>

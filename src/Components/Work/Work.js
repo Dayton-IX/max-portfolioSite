@@ -41,14 +41,14 @@ const Work = (props) => {
             linkName: 'schwabbakery.com',
             id: 'SchwabBakery'
         },
-        {
-            title: 'Wiser Storage',
-            text: 'A small teaser site with a contact form for a storage company coming to Richmond Utah.',
-            tech: [icons.html, icons.css, icons.js, icons.node],
-            link: 'https://www.wiserstorage.net',
-            linkName: 'wiserstorage.net',
-            id: 'WiserStorage'
-        },
+        // {
+        //     title: 'Wiser Storage',
+        //     text: 'A small teaser site with a contact form for a storage company coming to Richmond Utah.',
+        //     tech: [icons.html, icons.css, icons.js, icons.node],
+        //     link: 'https://www.wiserstorage.net',
+        //     linkName: 'wiserstorage.net',
+        //     id: 'WiserStorage'
+        // },
         {
             title: 'Veteran Lawncare',
             text: 'I helped with the some of the design, and implemented some payment features into this Squarespace site.',
