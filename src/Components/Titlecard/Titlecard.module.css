@@ -34,12 +34,42 @@
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 30px;
-    background: rgba(55, 55, 58, 0.6);
+    background: rgba(5, 5, 5, 0.7);
+}
+
+.Circles {
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+.Circles span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.Red {
+    background-color: #FF605C;
+}
+
+.Yellow {
+    background-color: #FFBD44;
+}
+
+.Green {
+    background-color: #00CA4E;
 }
 
 .DescriptionBlock p {
     /* color: #3498DB; */
     color: #fff;
+}
+
+.Value {
+    color: #FEB54C;
+    /* color: #fff; */
 }
 
 .Bracket {
@@ -52,7 +82,7 @@
 
 .DescriptionBlock ul {
     list-style-type: none;
-    /* color: #F0B27A; */
+    /* color: #FEB54C; */
     /* color: #3498DB; */
     color: #fff;
 }

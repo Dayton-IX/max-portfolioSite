@@ -81,7 +81,7 @@ const Work = (props) => {
             employer: 'Sapa Investment Group',
             startDate: 'November 2020',
             endDate: 'Present',
-            description: 'I am working as a senior full-stack React Web application and React Native mobile application developer. I am also leading a team of designers and developers on the development of multiple large scale mobile applications.',
+            description: 'I am working as a senior full-stack React web application and React Native mobile application developer. I am also leading a team of designers and developers on the development of multiple large scale mobile applications.',
         },
         {
             title: 'Freelance Full Stack Developer',
@@ -100,15 +100,15 @@ const Work = (props) => {
                     <WorkItem  key={workItem.title} project={workItem} />
                 ))}
             </div>
-            <WithFade>
+            <WithFade type="right">
                 <div className={classes.workHistory}>
                     <h2 className={classes.workHistoryHeader}>Work History.</h2>
                     <div className={classes.workHistoryItems}>
                         {workHistory.map(job => (
                             <div key={job.title} className={classes.job}>
                                 <h4 className={classes.jobTitle}>{job.title}</h4>
-                                <h5 className={classes.jobEmployer}>{job.employer}</h5>
-                                <p className={classes.jobTimeFrame}>{job.startDate} - {job.endDate}</p>
+                                <h5 className={classes.jobEmployer}>{job.employer} ● {job.startDate} - {job.endDate}</h5>
+                                {/* <p className={classes.jobTimeFrame}>{job.startDate} - {job.endDate}</p> */}
                                 <p className={classes.jobDescription}>{job.description}</p>
                             </div>
                         ))}

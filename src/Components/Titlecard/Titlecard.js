@@ -12,15 +12,20 @@ const Titlecard = (props) => (
             {/* <img className={classes.MobileFace} src={face} alt="face" /> */}
             <WithFade type="left">
                 <div className={classes.DescriptionBlock}>
-                    <p>i_am_a<span className={classes.Equal}> = </span><span className={classes.Bracket}>[</span></p>
+                    <div className={classes.Circles}>
+                        <span className={classes.Red}></span>
+                        <span className={classes.Yellow}></span>
+                        <span className={classes.Green}></span>
+                    </div>
+                    <p>maximus<span className={classes.Equal}> = </span><span className={classes.Bracket}>{'{'}</span></p>
                     <ul>
-                        <li>'full stack web developer'<span className={classes.Comma}>,</span></li>
-                        <li>'web designer'<span className={classes.Comma}>,</span></li>
-                        <li>'code enthusiast'<span className={classes.Comma}>,</span></li>
-                        <li>'drummer'<span className={classes.Comma}>,</span></li>
-                        <li>'nerd'</li>
+                        <li>profession: <span className={classes.Value}>'Full Stack Software Engineer'</span><span className={classes.Comma}>,</span></li>
+                        <li>specialties: <span className={classes.Value}>'Web Applications, Hybrid Mobile Applications, DevOps, Cloud Engineering'</span><span className={classes.Comma}>,</span></li>
+                        <li>topTechnologies: <span className={classes.Value}>'React, React Native, NodeJS, GraphQL, AWS, Firebase'</span><span className={classes.Comma}>,</span></li>
+                        <li>yearsOfExperience: <span className={classes.Value}>5</span><span className={classes.Comma}>,</span></li>
+                        <li>age: <span className={classes.Value}>19</span></li>
                     </ul>
-                    <div className={classes.Semicolon}><span className={classes.Bracket}>]</span>;</div>
+                    <div className={classes.Semicolon}><span className={classes.Bracket}>{'}'}</span>;</div>
                 </div>
             </WithFade>
             <WithFade>
