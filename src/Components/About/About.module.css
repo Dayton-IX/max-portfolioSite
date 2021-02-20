@@ -184,6 +184,25 @@
     margin-left: 25px;
 }
 
+.Skills {
+    width: 95%;
+    margin: auto;
+}
+
+.Skill {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.Skills svg, .Skills img {
+    margin-right: 7px;
+    margin-bottom: -10px;
+    height: 33.33px;
+    width: 33.33px;
+}
+
 .SkillsList {
     color: #F0B27A;
     font-size: 18px;
@@ -201,12 +220,6 @@
 }
 
 .SkillsList svg, .SkillsList img {
-    margin-bottom: -10px;
-    height: 33.33px;
-    width: 33.33px;
-}
-
-.Skills svg, .Skills img {
     margin-bottom: -10px;
     height: 33.33px;
     width: 33.33px;
