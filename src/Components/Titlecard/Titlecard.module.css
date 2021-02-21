@@ -132,6 +132,7 @@
     border-radius: 20px;
     margin: 20px;
     object-fit: cover;
+    /* filter: grayscale(100%); */
 }
 
 .DesktopFace {
