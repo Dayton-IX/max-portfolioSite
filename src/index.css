@@ -143,12 +143,16 @@ main {
   width: 100%;
 }
 
+.logo .nav-link {
+  filter: grayscale(0%)
+}
+
 .logo img {
   transform: rotate(0deg);
   transition: var(--transition-speed);
-  width: 69px;
-  height: 69px;
-  margin-left: 6px;
+  width: 50px;
+  /* height: ; */
+  margin-left: 15px;
 }
 
 .logo-text
