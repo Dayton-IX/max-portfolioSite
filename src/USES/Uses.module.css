@@ -36,7 +36,7 @@
     padding-top: 0px;
     background-color: #FEB54C;
     background-position: bottom left;
-    height: 80vh;
+    height: 100%;
 }
 
 .UsesLink {
@@ -55,6 +55,11 @@
     transition: all .3s;
 }
 
+.UsesLink:focus, .UsesLinkActive:focus {
+    border: none;
+    outline: none;
+}
+
 .UsesLinkActive {
     background-color: #000000;
     border: none;
@@ -64,6 +69,7 @@
     font-weight: lighter;
     padding: 10px;
     transition: all .3s;
+    height: 100%;
 }
 
 .UsesItems {
@@ -76,4 +82,16 @@
 .UsesItems span {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%; 
+}
+
+@media only screen and (max-width: 1300px) {
+    .UsesItems span {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .UsesItems span {
+        display: inline-block;
+    }
 }
