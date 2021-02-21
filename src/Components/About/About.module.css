@@ -19,59 +19,6 @@
     color: #fff;
 }
 
-.AboutBlocks {
-    display: grid;
-    width: 85%;
-    margin: auto;
-    grid-template-columns: auto auto auto auto;
-}
-
-.AboutBlock {
-    width: 85%;
-    height: 220px;
-    border-radius: 20px;
-    text-align: center;
-    /* box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25); */
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.Rocket {
-    margin-top: 10px;
-    height: 45px;
-    width: 45px;
-}
-
-.Lightbulb {
-    margin-top: 10px;
-    height: 45px;
-    width: 30.94px;
-}
-
-.Mobile {
-    margin-top: 10px;
-    height: 45px;
-    width: 28.13px;
-}
-
-.Snowflake {
-    margin-top: 10px;
-    height: 45px;
-    width: 39.38px;
-}
-
-.AboutBlockHeader {
-    color: #EAF2F8;
-    font-size: 36px;
-    margin: 0;
-}
-
-.AboutBlockText {
-    color: #fff;
-    font-size: 18px;
-    margin: 0px 5px;
-}
-
 .AboutMeSection {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -84,18 +31,6 @@
     padding: 10px;
     max-width: 1200px;
 }
-
-/* .BackgroundBlock {
-    position: absolute;
-    width: 1021px;
-    height: 400px;
-    left: 17%;
-    top: 1126px;
-    background: #34495E;
-    box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    z-index: 1;
-} */
 
 .WhoAmIBlock {
     z-index: 100;

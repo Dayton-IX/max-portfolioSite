@@ -9,7 +9,7 @@
   scrollbar-width: thin;
   scrollbar-color: #f15555 rgb(20, 20, 20);
   overflow-x: hidden;
-  background-color: var(--bg-primary);
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar {
@@ -26,7 +26,10 @@
 }
 
 html {
+  min-height: calc(100% + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   scroll-behavior: smooth;
+  background-color: #000000;
 }
 
 /* body::selection {
@@ -42,7 +45,7 @@ body::-moz-selection {
 body {
   font-family: 'Open Sans';
   color: black;
-  background-color: #F7F9F9;
+  background-color: #000000;
   margin: 0;
   padding: 0;
 }
