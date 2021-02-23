@@ -9,7 +9,7 @@ const Work = (props) => {
     const workItems = [
         {
             title: 'Idea Makers',
-            text: 'Idea Makers is a full stack product development firm that can turn any Idea into a reality! I redesigned and revamped their website!',
+            text: 'Idea Makers is a full stack product development firm that can turn any Idea into a reality! I developed their new, revamped website!',
             link: 'https://ideamakersinc.com',
             linkName: 'ideamakersinc.com',
             id: 'IdeaMakers'
