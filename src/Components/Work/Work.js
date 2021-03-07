@@ -57,7 +57,7 @@ const Work = (props) => {
             employer: 'Sapa Investment Group',
             startDate: 'November 2020',
             endDate: 'Present',
-            description: 'I am working as a senior full-stack React web application and React Native mobile application developer. I am also leading a team of designers and developers on the development of multiple large scale mobile applications.',
+            description: 'I am working as a senior full-stack software engineer. I lead a team of designers and developers on the development of multiple large scale React Progressive Web Applications.',
         },
         {
             title: 'Freelance Full Stack Developer',
