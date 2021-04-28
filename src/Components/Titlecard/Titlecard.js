@@ -20,8 +20,8 @@ const Titlecard = (props) => (
                     <p>maximus<span className={classes.Equal}> = </span><span className={classes.Bracket}>{'{'}</span></p>
                     <ul>
                         <li>profession: <span className={classes.Value}>'Full Stack Software Engineer'</span><span className={classes.Comma}>,</span></li>
-                        <li>specialties: <span className={classes.Value}>'Web Applications, Hybrid Mobile Applications, DevOps, Cloud Engineering'</span><span className={classes.Comma}>,</span></li>
-                        <li>topTechnologies: <span className={classes.Value}>'React, React Native, Node.js, GraphQL, AWS, Firebase'</span><span className={classes.Comma}>,</span></li>
+                        <li>specialties: <span className={classes.Value}>'Progressive Web Applications, Hybrid Mobile Applications, DevOps, Cloud Engineering'</span><span className={classes.Comma}>,</span></li>
+                        <li>topTechnologies: <span className={classes.Value}>'React, React Native, Next.js, Three.js, Node.js, GraphQL, AWS'</span><span className={classes.Comma}>,</span></li>
                         <li>yearsOfExperience: <span className={classes.Value}>5</span><span className={classes.Comma}>,</span></li>
                         <li>age: <span className={classes.Value}>19</span></li>
                     </ul>
