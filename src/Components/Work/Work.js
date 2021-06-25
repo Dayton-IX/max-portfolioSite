@@ -8,6 +8,13 @@ const Work = (props) => {
 
     const workItems = [
         {
+            title: 'Dragonfly',
+            text: 'Dragonfly is a fully vertically integrated cannabis company that manages product from seed to sale, and the first medical cannabis company in Utah!',
+            link: 'https://dragonflyprocessing.com',
+            linkName: 'dragonflyprocessing.com',
+            id: 'Dragonfly'
+        },
+        {
             title: 'Idea Makers',
             text: 'Idea Makers is a full stack product development firm that can turn any Idea into a reality! I developed their new, revamped website!',
             link: 'https://ideamakersinc.com',
@@ -55,9 +62,16 @@ const Work = (props) => {
         {
             title: 'Senior Software Engineer / Project Team Lead',
             employer: 'Sapa Investment Group',
-            startDate: 'November 2020',
+            startDate: 'January 2021',
             endDate: 'Present',
-            description: 'I am working as a senior full-stack software engineer. I lead a team of designers and developers on the development of multiple large scale React Progressive Web Applications.',
+            description: 'I am working as a senior full-stack software engineer. I lead a team of designers and developers on the development of multiple large scale progressive web applications, software systems, decentralized applications, SAAS, and more!',
+        },
+        {
+            title: 'Junior Software Engineer',
+            employer: 'Sapa Investment Group',
+            startDate: 'November 2020',
+            endDate: 'January 2021',
+            description: 'I worked as a junior software engineer to help prototype a cloud-based restaurant POS system.',
         },
         {
             title: 'Freelance Full Stack Developer',

@@ -19,11 +19,12 @@ const Titlecard = (props) => (
                     </div>
                     <p>maximus<span className={classes.Equal}> = </span><span className={classes.Bracket}>{'{'}</span></p>
                     <ul>
+                        <li>fullName: <span className={classes.Value}>'Maximus Robert Dayton'</span><span className={classes.Comma}>,</span></li>
                         <li>profession: <span className={classes.Value}>'Full Stack Software Engineer'</span><span className={classes.Comma}>,</span></li>
-                        <li>specialties: <span className={classes.Value}>'Progressive Web Applications, Hybrid Mobile Applications, DevOps, Cloud Engineering'</span><span className={classes.Comma}>,</span></li>
-                        <li>topTechnologies: <span className={classes.Value}>'React, React Native, Next.js, Three.js, Node.js, GraphQL, AWS'</span><span className={classes.Comma}>,</span></li>
-                        <li>yearsOfExperience: <span className={classes.Value}>5</span><span className={classes.Comma}>,</span></li>
-                        <li>age: <span className={classes.Value}>19</span></li>
+                        <li>specialties: <span className={classes.Value}>'Project Planning, API Development, App Optimization, Serverless Development, DevOps, Blockchain Development'</span><span className={classes.Comma}>,</span></li>
+                        <li>topTechnologies: <span className={classes.Value}>'Typescript, React, Next.js, Node.js, AWS, Solidity, React Native'</span><span className={classes.Comma}>,</span></li>
+                        <li>yearsOfExperience: <span className={classes.Value}>6</span><span className={classes.Comma}>,</span></li>
+                        <li>age: <span className={classes.Value}>20</span></li>
                     </ul>
                     <div className={classes.Semicolon}><span className={classes.Bracket}>{'}'}</span>;</div>
                 </div>

@@ -300,6 +300,10 @@ main {
 
 
 /* Images In Work Section */
+#Dragonfly {
+  background-image: url('./assets/dragonfly.webp');
+}
+
 #IdeaMakers {
   background-image: url('./assets/IdeaMakers.webp');
 }
