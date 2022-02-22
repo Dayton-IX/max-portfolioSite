@@ -21,8 +21,8 @@ const Titlecard = (props) => (
                     <ul>
                         <li>fullName: <span className={classes.Value}>'Maximus Robert Dayton'</span><span className={classes.Comma}>,</span></li>
                         <li>profession: <span className={classes.Value}>'Full Stack Software Engineer'</span><span className={classes.Comma}>,</span></li>
-                        <li>specialties: <span className={classes.Value}>'Project Planning, API Development, App Optimization, Serverless Development, DevOps, Blockchain Development'</span><span className={classes.Comma}>,</span></li>
-                        <li>topTechnologies: <span className={classes.Value}>'Typescript, React, Next.js, Node.js, AWS, Solidity, React Native'</span><span className={classes.Comma}>,</span></li>
+                        <li>specialties: <span className={classes.Value}>'Front-End Development, Back-End Development, Cloud Development, Blockchain Development, DevOps'</span><span className={classes.Comma}>,</span></li>
+                        <li>skills: <span className={classes.Value}>'Typescript, React, Next.js, Node.js, AWS, Solidity, React Native'</span><span className={classes.Comma}>,</span></li>
                         <li>yearsOfExperience: <span className={classes.Value}>6</span><span className={classes.Comma}>,</span></li>
                         <li>age: <span className={classes.Value}>20</span></li>
                     </ul>
